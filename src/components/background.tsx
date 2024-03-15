@@ -1,5 +1,5 @@
 import Image from "next/image";
-import background from '../../public/background.png'
+import background from '../../public/background.webp'
 
 
 export default function Background() {
@@ -16,7 +16,7 @@ export default function Background() {
         position: 'fixed',
         objectPosition: 'left',
       }}
-      className="h-full w-auto"
+      className="h-full w-full"
     />
   )
 }

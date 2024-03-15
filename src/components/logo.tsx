@@ -1,10 +1,9 @@
 import Image from "next/image";
-import logo from '../../public/logo.png'
+import logo from '../../public/logo.webp'
 
 export default function Logo(){
   return (
     <>
-     
       <div className="md:flex md:w-4/5 lg:1/2 mt-40">
           <h1 className="">
             <Image
