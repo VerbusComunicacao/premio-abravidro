@@ -29,14 +29,17 @@ export default function Home() {
             <h2 className="font-bold lg:text-5xl text-background">Categorias</h2>
             
             <div className="grid grid-cols-3 gap-3">
-            <Category/>
-            <Category/>
-            <Category/>
-            <Category/>
-            <Category/>
-            <Category/>
-            <Category/>
-            <Category/>
+          
+            </div>
+
+          </div>
+        </Container>
+        <Container>
+          <div className="mt-10 ">
+            <h2 className="font-bold lg:text-5xl text-background">Regulamento</h2>
+            
+            <div className="grid grid-cols-3 gap-3">
+          
             </div>
 
           </div>

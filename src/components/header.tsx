@@ -8,7 +8,7 @@ export function Header(){
   return (
     <div className="flex top-0 fixed bg-background h-28 w-screen justify-start items-end">
       <Container>
-        <div className='flex w-100 h-16 mb-5'>
+        <div className='hidden md:flex w-100 h-16 mb-5'>
           <Image
             src={logoAbravidro}
             alt='Logo Abravidro'
@@ -34,6 +34,37 @@ export function Header(){
               objectFit: 'cover'
             }}
             />
+        </div>
+        <div className='flex justify-center items-center md:hidden w-full h-10 mb-5'>
+          <div>
+          <Image
+            src={logoAbravidro}
+            alt='Logo Abravidro'
+            width={140}
+            style={{
+              objectFit: 'cover'
+            }} />
+          </div>
+          <div className='ml-2'>
+            <Image
+            src={logoGlass}
+            alt='Logo Abravidro'
+            width={180}
+            style={{
+              objectFit: 'cover'
+          }}
+            />
+            </div>
+            <div>
+            <Image
+            src={logoEsquadria}
+            alt='Logo Abravidro'
+            width={230}
+            style={{
+              objectFit: 'contain'
+            }}
+            />
+            </div>
         </div>
       </Container>
     </div>
