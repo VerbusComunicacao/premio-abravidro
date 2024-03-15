@@ -1,24 +1,10 @@
-'use client'
+import { ReactNode } from "react";
 
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion"
-
-export function Category(){
+export function Category({title, children}: {title: string, children?: ReactNode}){
   return (
-  <Accordion type="single" collapsible>
-    <AccordionItem value="item-1">
-      <AccordionTrigger className="text-black">
-        <h3>Categoria Profissional</h3>
-        <p className="text-sm">Primeira categoria</p>
-        </AccordionTrigger>
-      <AccordionContent>
-       <div className="p-2 text-black"> Yes. It adheres to the WAI-ARIA design pattern.</div>
-      </AccordionContent>
-    </AccordionItem>
-  </Accordion>
+  <div className="bg-white rounded-md p-3 py-4 flex flex-col justify-center hover:bg-yellow-400 transition-all">
+    <h3 className="text-background font-bold">{title}</h3>
+    <p className="text-zinc-500">{children}</p>
+  </div>
   )
 }
