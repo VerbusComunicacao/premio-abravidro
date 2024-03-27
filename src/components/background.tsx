@@ -1,10 +1,9 @@
-import Image from "next/image";
+import Image from 'next/image'
 import background from '../../public/background.webp'
-
 
 export default function Background() {
   return (
-      <Image
+    <Image
       sizes="100vw"
       alt="Background"
       src={background}
