@@ -6,7 +6,7 @@ import { Container } from './container'
 
 export function Header() {
   return (
-    <div className="flex top-0 fixed bg-background h-20 md:h-28 w-screen justify-start items-end">
+    <div className="flex top-0 fixed bg-background h-20 md:h-28 w-screen justify-start items-end z-10">
       <Container>
         <div className="hidden md:flex w-100 h-16 mb-5">
           <Image
