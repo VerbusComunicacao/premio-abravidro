@@ -12,13 +12,13 @@ export function Category({
 }) {
   return (
     <motion.div
-      className="bg-white rounded-md p-3 py-4 flex flex-col justify-center hover:bg-yellow-400 transition-all"
+      className="bg-white rounded-md p-3 py-4 flex flex-col justify-center hover:bg-yellow-400 transition-colors"
       initial={{
         opacity: 0,
-        translateY: 40,
+        translateY: 50,
       }}
       whileInView={{ opacity: 1, translateY: 0 }}
-      transition={{ duration: 1 }}
+      transition={{ duration: 1, easings: ['easeInOut'] }}
       viewport={{ once: true }}
     >
       <h3 className="text-background font-bold uppercase">{title}</h3>
