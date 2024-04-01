@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body className={inter.className}>{children}</body>
-      <GoogleAnalytics gaId="GA_ID_UPDATE" />
+      <GoogleAnalytics gaId="G-2HCBHMTCRL" />
     </html>
   )
 }
