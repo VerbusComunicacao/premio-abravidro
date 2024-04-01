@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Prêmio Abravidro Glass South America',
-  description: 'Prêmio Abravidro',
+  description: 'Prêmio Abravidro Glass South America',
 }
 
 export default function RootLayout({
@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body className={inter.className}>{children}</body>
-      <GoogleAnalytics gaId="GA_ID_UPDATE" />
+      <GoogleAnalytics gaId="G-2HCBHMTCRL" />
     </html>
   )
 }

@@ -1,5 +1,4 @@
 import logoGlass from '../../public/logo-glass.png'
-import logoEsquadria from '../../public/logo-Esquadria.png'
 import logoAbravidro from '../../public/abravidro.png'
 import Image from 'next/image'
 import { Container } from './container'
@@ -26,14 +25,6 @@ export function Header() {
               objectFit: 'cover',
             }}
           />
-          <Image
-            src={logoEsquadria}
-            alt="Logo Abravidro"
-            width={250}
-            style={{
-              objectFit: 'cover',
-            }}
-          />
         </div>
         <div className="flex justify-center items-center md:hidden w-full h-10 mb-5">
           <div>
@@ -53,16 +44,6 @@ export function Header() {
               width={180}
               style={{
                 objectFit: 'cover',
-              }}
-            />
-          </div>
-          <div>
-            <Image
-              src={logoEsquadria}
-              alt="Logo Abravidro"
-              width={230}
-              style={{
-                objectFit: 'contain',
               }}
             />
           </div>

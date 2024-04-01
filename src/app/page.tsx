@@ -3,12 +3,11 @@ import { Header } from '@/components/header'
 import { Container } from '@/components/container'
 import { Category } from '@/components/category'
 import { Subtitle } from '@/components/subtitle'
-import AbravidroImg from '../../public/abravidro.png'
-import NMBImg from '../../public/NMB.png'
-import Image from 'next/image'
-import Link from 'next/link'
+
 import { HeroSection } from '@/components/hero-section'
 import { Regulamento } from '@/components/regulamento'
+
+import Footer from '@/components/footer'
 
 export default function Home() {
   return (
@@ -82,21 +81,7 @@ export default function Home() {
       </div>
       <div className="py-10 flex flex-col justify-center bg-blue-950">
         <Container>
-          <p className="text-xl text-center text-primary-foreground pb-5 lg:text-2xl">
-            <span className="font-bold text-red-300">Fique atento: </span>
-            inscrições abertas a partir de 8 de abril
-          </p>
-          <p className="text-xl pb-4 text-center mt-5 font-bold">
-            Organização:
-          </p>
-          <div className="flex flex-col md:flex-row justify-center items-center gap-3 md:gap-10">
-            <Link href="https://abravidro.org.br/">
-              <Image width={185} src={AbravidroImg} alt="Logo Abravidro" />
-            </Link>
-            <Link href="https://nuernbergmesse-brasil.com.br/">
-              <Image width={185} src={NMBImg} alt="NürnbergMesse Brasil" />
-            </Link>
-          </div>
+          <Footer />
         </Container>
       </div>
     </main>
