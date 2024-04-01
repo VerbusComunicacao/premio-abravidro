@@ -8,7 +8,7 @@ import NMBImg from '../../public/NMB.png'
 import Image from 'next/image'
 import Link from 'next/link'
 import { HeroSection } from '@/components/hero-section'
-// import { Regulamento } from '@/components/regulamento'
+import { Regulamento } from '@/components/regulamento'
 
 export default function Home() {
   return (
@@ -22,7 +22,7 @@ export default function Home() {
         <Container>
           <div className=" ">
             <Subtitle>Categorias</Subtitle>
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-3 mt-5">
+            <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-3 mt-5 content-start">
               <Category title={'Fabricante de vidro plano'}>
                 Inclui fabricantes e <i>float</i>, espelho, vidros de controle
                 solar, etc.
@@ -75,6 +75,9 @@ export default function Home() {
               </Category>
             </div>
           </div>
+        </Container>
+        <Container>
+          <Regulamento />
         </Container>
       </div>
       <div className="py-10 flex flex-col justify-center bg-blue-950">
