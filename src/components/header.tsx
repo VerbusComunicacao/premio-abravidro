@@ -1,5 +1,4 @@
 import logoGlass from '../../public/logo-glass.png'
-import logoEsquadria from '../../public/logo-Esquadria.png'
 import logoAbravidro from '../../public/abravidro.png'
 import Image from 'next/image'
 import { Container } from './container'
