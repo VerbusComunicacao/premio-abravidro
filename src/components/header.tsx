@@ -26,14 +26,6 @@ export function Header() {
               objectFit: 'cover',
             }}
           />
-          <Image
-            src={logoEsquadria}
-            alt="Logo Abravidro"
-            width={250}
-            style={{
-              objectFit: 'cover',
-            }}
-          />
         </div>
         <div className="flex justify-center items-center md:hidden w-full h-10 mb-5">
           <div>
@@ -53,16 +45,6 @@ export function Header() {
               width={180}
               style={{
                 objectFit: 'cover',
-              }}
-            />
-          </div>
-          <div>
-            <Image
-              src={logoEsquadria}
-              alt="Logo Abravidro"
-              width={230}
-              style={{
-                objectFit: 'contain',
               }}
             />
           </div>
