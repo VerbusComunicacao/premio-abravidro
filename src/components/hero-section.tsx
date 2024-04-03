@@ -12,7 +12,10 @@ export function HeroSection() {
         <Logo />
       </motion.div>
       <div className="max-w-md mt-10 [&>p]:pt-5">
-        <Subtitle color="secondary">Celebrando o trabalho do setor</Subtitle>
+        <Subtitle color="secondary">
+          Celebrando o trabalho
+          <br className="hidden md:inline" /> do setor
+        </Subtitle>
         <ParagraphAnimated>
           A Abravidro e a NürnbergMesse Brasil se juntaram para criar a mais
           nova premiação do segmento vidreiro nacional, o Prêmio Abravidro Glass
