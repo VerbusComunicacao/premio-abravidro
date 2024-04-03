@@ -8,16 +8,17 @@ import { HeroSection } from '@/components/hero-section'
 import { Regulamento } from '@/components/regulamento'
 
 import Footer from '@/components/footer'
+import Contact from '@/components/contact'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col">
+    <main className="flex min-h-screen flex-col" id="inicio">
       <Background />
       <Header />
       <Container>
         <HeroSection />
       </Container>
-      <div className="bg-white/80 py-10 mt-10">
+      <div id="categorias" className="bg-white/80 py-10 mt-10">
         <Container>
           <div className=" ">
             <Subtitle>Categorias</Subtitle>
@@ -77,6 +78,9 @@ export default function Home() {
         </Container>
         <Container>
           <Regulamento />
+        </Container>
+        <Container>
+          <Contact />
         </Container>
       </div>
       <div className="py-10 flex flex-col justify-center bg-blue-950">

@@ -37,7 +37,7 @@ export default function Footer() {
                 style={{
                   objectFit: 'cover',
                 }}
-                className="h-10"
+                className="h-14 w-56"
               />
             </Link>
           </div>

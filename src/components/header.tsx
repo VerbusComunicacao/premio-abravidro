@@ -2,6 +2,7 @@ import logoGlass from '../../public/logo-glass.png'
 import logoAbravidro from '../../public/abravidro.png'
 import Image from 'next/image'
 import { Container } from './container'
+import Menu from './menu'
 
 export function Header() {
   return (
@@ -25,6 +26,7 @@ export function Header() {
               objectFit: 'cover',
             }}
           />
+          <Menu />
         </div>
         <div className="flex justify-center items-center md:hidden w-full h-10 mb-5">
           <div>
@@ -47,6 +49,7 @@ export function Header() {
               }}
             />
           </div>
+          <Menu />
         </div>
       </Container>
     </div>

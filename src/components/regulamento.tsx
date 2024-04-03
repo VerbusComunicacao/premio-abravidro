@@ -4,7 +4,7 @@ import { Subtitle } from './subtitle'
 
 export function Regulamento() {
   return (
-    <div className="mt-20 relative">
+    <div className="mt-10 md:mt-20 relative" id="regulamento">
       <Subtitle>Regulamento</Subtitle>
       <CardRegulament>
         <CardRegulamentItem title="Objetivo">
