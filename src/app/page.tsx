@@ -23,55 +23,55 @@ export default function Home() {
           <div className=" ">
             <Subtitle>Categorias</Subtitle>
             <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-3 mt-5 content-start">
-              <Category title={'Fabricante de vidro plano'}>
-                Inclui fabricantes e <i>float</i>, espelho, vidros de controle
-                solar, etc.
-              </Category>
-
-              <Category title={'Processador'}>
-                Prêmio por região: Norte, Nordeste, Centro-Oeste, Sudeste, Sul.
-              </Category>
-
               <Category
-                title={
-                  'Fabricante de máquinas e equipamentos para processamento de vidro'
-                }
-              >
-                Inclui lavadoras, lapidadoras, máquinas de corte, fornos de
-                têmpera, etc.
-              </Category>
-
-              <Category
-                title={'Fabricante de insumos para o processamento de vidros'}
-              >
-                Inclui rebolos, brocas, <i>interlayers</i>.
-              </Category>
-
-              <Category
-                title={'Fabricante de ferragens e acessórios para vidro'}
+                title={'Fabricantes de vidro plano'}
+                link="https://docs.google.com/forms/d/e/1FAIpQLSdyFkpVUploo2yz06sqarKoj-FfL3xiIMCEjCzxutLXK-czJw/viewform?usp=sf_link"
               />
 
               <Category
-                title={'Fabricante de ferragens e acessórios para vidro'}
-              >
-                Inclui kits de boxe de banheiro, envidraçamento de sacada,
-                guarda-corpos e perfis de alumínio.
-              </Category>
+                title={'Processadores de vidro'}
+                link="https://docs.google.com/forms/d/e/1FAIpQLSdW5ezvddFZJaNecGido2Wq86QI2u29u8oFzdQiL6Gxy3uouQ/viewform?usp=sf_link"
+              />
 
-              <Category title={'Selantes, gaxetas e adesivos'}>
-                Materiais para fixação e vedação.
-              </Category>
+              <Category
+                title="Fabricantes de máquinas e equipamentos para processamento de vidro"
+                link="https://docs.google.com/forms/d/e/1FAIpQLSetrdoD747Ztqu41NeXDhriZShvtam05OG3sFPhyOu9WQx7sg/viewform?usp=sf_link"
+              />
 
-              <Category title={'Vidraçaria'}>
-                Prêmio por região: Norte, Nordeste, Centro-Oeste, Sudeste, Sul.
-              </Category>
+              <Category
+                title="Fabricante de insumos para o processamento de vidros"
+                link="https://docs.google.com/forms/d/e/1FAIpQLSfq5loK_zUDKHkp7GJspsh-_piH093-VMtI6RzeQYAU9tOKbg/viewform?usp=sf_link"
+              />
 
-              <Category title={'Projeto/Obra'}>
-                Residencial ou Comercial.
-              </Category>
+              <Category
+                title="Fabricante de ferragens e acessórios para vidro"
+                link=" https://docs.google.com/forms/d/e/1FAIpQLSeiiXV6HKHWr8BYhs6HnvteHMNgwS7b3J-gsz6yQUW5HcVDhw/viewform?usp=sf_link"
+              />
 
+              <Category
+                title="Fabricantes de sistemas para envidraçamentos"
+                link="https://docs.google.com/forms/d/e/1FAIpQLSe3CTeMPXn-kHPTFW9dqig_WYOL2lslVXqdc-tE9zUcAFcOhg/viewform?usp=sf_link"
+              />
+
+              <Category
+                title="Fabricantes de selantes, gaxetas, adesivos e materiais de vedação"
+                link="https://docs.google.com/forms/d/e/1FAIpQLSczfxrACoyMI4u0d8ZvOz1rvfGvOPLnLwAb605GAGY1bbf0yQ/viewform?usp=sf_link"
+              />
+
+              <Category
+                title={'Vidraçaria'}
+                link="https://docs.google.com/forms/d/e/1FAIpQLSdvcSr736BPPzDAeYl83pTADfy7R0wSLo50mN3v-ybECypBFg/viewform?usp=sf_link"
+              />
+
+              <Category title={'Projetos e obras que empregam vidros'}>
+                Os concorrentes desta categoria serão indicados pela organização
+                do prêmio e, para concorrer, precisarão aceitar a indicação,
+                enviando fotos e documentos que suportem a indicação.
+              </Category>
               <Category title={'Arquiteto especificador de obras com vidro'}>
-                Residencial ou Comercial.
+                Os concorrentes desta categoria serão indicados pela organização
+                do prêmio e, para concorrer, precisarão aceitar a indicação,
+                enviando fotos e documentos que suportem a indicação.
               </Category>
             </div>
           </div>
