@@ -54,7 +54,7 @@ export default function Home() {
               />
 
               <Category
-                title="Fabricantes de selantes, gaxetas, adesivos e materiais de vedação"
+                title="Fabricante de selantes, gaxetas e adesivos (materiais para fixação e vedação)"
                 link="https://docs.google.com/forms/d/e/1FAIpQLSczfxrACoyMI4u0d8ZvOz1rvfGvOPLnLwAb605GAGY1bbf0yQ/viewform?usp=sf_link"
               />
 

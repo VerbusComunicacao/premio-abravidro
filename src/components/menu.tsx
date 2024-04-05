@@ -20,6 +20,10 @@ export default function Menu() {
       title: 'Regulamento',
       href: 'regulamento',
     },
+    {
+      title: 'Contato',
+      href: 'contato',
+    },
   ]
 
   function handleClickLink(id: string) {
