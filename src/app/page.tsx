@@ -63,12 +63,20 @@ export default function Home() {
                 link="https://docs.google.com/forms/d/e/1FAIpQLSdvcSr736BPPzDAeYl83pTADfy7R0wSLo50mN3v-ybECypBFg/viewform?usp=sf_link"
               />
 
-              <Category title={'Projetos e obras que empregam vidros'}>
+              <Category
+                link="https://docs.google.com/forms/d/e/1FAIpQLSeNVD1MWlN_D0MBKcoUYoDALFv6G9-EIcjxyo2cHufnxIy66w/viewform?usp=sf_link"
+                title={'Projetos e obras que empregam vidros'}
+                callAction="Indique um projeto"
+              >
                 Os concorrentes desta categoria serão indicados pela organização
                 do prêmio e, para concorrer, precisarão aceitar a indicação,
                 enviando fotos e documentos que suportem a indicação.
               </Category>
-              <Category title={'Arquiteto especificador de obras com vidro'}>
+              <Category
+                link="https://docs.google.com/forms/d/e/1FAIpQLSes4VByNuKh81nAGhxW-Le1T2t-xZVNrbRk6W_rWFwl6sOWdw/viewform?usp=sf_link"
+                title={'Arquiteto especificador de obras com vidro'}
+                callAction="Indique um profissional"
+              >
                 Os concorrentes desta categoria serão indicados pela organização
                 do prêmio e, para concorrer, precisarão aceitar a indicação,
                 enviando fotos e documentos que suportem a indicação.

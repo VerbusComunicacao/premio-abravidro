@@ -8,10 +8,6 @@ import Image from 'next/image'
 export default function Footer() {
   return (
     <>
-      <p className="text-xl text-center text-primary-foreground pb-5 lg:text-2xl">
-        <span className="font-bold text-red-300">Fique atento: </span>
-        inscrições abertas a partir de 8 de abril
-      </p>
       <div>
         <div>
           <p className="text-xl pb-4 text-center mt-5 font-bold">

@@ -8,10 +8,12 @@ export function Category({
   title,
   children,
   link,
+  callAction,
 }: {
   title: string
   children?: ReactNode
   link?: string
+  callAction?: string
 }) {
   return (
     <motion.div
@@ -25,19 +27,24 @@ export function Category({
       viewport={{ once: true }}
     >
       <h3 className="text-background font-bold uppercase">{title}</h3>
-      {children && (
-        <Popover>
-          <PopoverTrigger className="text-sm text-start text-zinc-500 underline">
-            Saiba mais
-          </PopoverTrigger>
-          <PopoverContent>{children}</PopoverContent>
-        </Popover>
-      )}
-      {link && (
-        <a className="text-sm text-zinc-500 underline" href={link}>
-          Inscreva-se
-        </a>
-      )}
+      <div className="flex flex-col">
+        {children && (
+          <Popover>
+            <PopoverTrigger className="text-sm text-start text-zinc-500 hover:text-white underline">
+              Saiba mais
+            </PopoverTrigger>
+            <PopoverContent>{children}</PopoverContent>
+          </Popover>
+        )}
+        {link && (
+          <a
+            className="text-sm text-zinc-500 underline hover:text-white"
+            href={link}
+          >
+            {callAction ?? 'Inscreva-se'}
+          </a>
+        )}
+      </div>
     </motion.div>
   )
 }
