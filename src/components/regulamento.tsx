@@ -74,7 +74,7 @@ export function Regulamento() {
           <p>
             Requisitos: Indústria com planta produtiva instalada em território
             nacional; processamento em planta própria de pelo menos um destes
-            produtos: vidro temperado, vidro laminado e vidro insulado.
+            produtos: vidro temperado, vidro laminado e/ou vidro insulado.
           </p>
           <p>
             <b>Categoria 3</b>: Fabricantes de máquinas e equipamentos para
@@ -221,9 +221,10 @@ export function Regulamento() {
           </p>
           <p>
             O prazo da votação pelo público será das 00h00 de 15 de maio de 2024
-            até as 23h59 do dia 30 de maio de 2024. Os cinco participantes mais
+            até as 23h59 do dia 22 de maio de 2024. Os cinco participantes mais
             votados de cada categoria pelo júri popular integrarão a seleção de
-            finalistas e computarão um ponto na votação da comissão julgadora.
+            finalistas e computarão um ponto adicional na votação da comissão
+            julgadora.
           </p>
           <p>
             <b>5.6 ETAPA 6 – VOTAÇÃO DA COMISSÃO JULGADORA</b>
@@ -240,8 +241,8 @@ export function Regulamento() {
             O finalista de cada uma das dez categorias com maior pontuação será
             considerado vencedor. O finalista de cada uma das dez categorias com
             maior pontuação será premiado em cerimônia. A cerimônia será
-            realizada pela Abravidro durante a feira Glass South America em 12
-            de junho de 2024.
+            realizada pela Abravidro e NürnbergMesse Brasil durante a Glass
+            South America, em 12 de junho de 2024.
           </p>
         </CardRegulamentItem>
 
@@ -259,7 +260,7 @@ export function Regulamento() {
             Abravidro junto à curadora definir o premiado.
           </p>
           <p>
-            6.3 A decisão da comissão (organizadora, julgadora) da presente
+            6.3 A decisão das comissões (organizadora, julgadora) da presente
             premiação será soberana e irrevogável.
           </p>
           <p>
@@ -282,7 +283,7 @@ export function Regulamento() {
             <li>
               <p>
                 Certificações: a empresa deverá informar quais certificações
-                possui, como ISO (9001, 14001 etc.)
+                possui, como ISO (9001, 14001) etc.
               </p>
             </li>
             <li>
@@ -342,8 +343,8 @@ export function Regulamento() {
             <li>
               <p>
                 Certificações: a empresa deverá informar quais certificações
-                possui, como a do vidro temperado (Inmetro) ou ISO (9001, 14001
-                etc.)
+                possui, como a do vidro temperado (Inmetro) ou ISO (9001, 14001)
+                etc.
               </p>
             </li>
             <li>
@@ -427,7 +428,7 @@ export function Regulamento() {
             <li>
               <p>
                 Certificações: a empresa deverá informar quais certificações
-                possui, como ISO (9001, 14001 etc.)
+                possui, como ISO (9001, 14001) etc.
               </p>
             </li>
             <li>
@@ -506,7 +507,7 @@ export function Regulamento() {
             <li>
               <p>
                 Certificações: a empresa deverá informar quais certificações
-                possui, como ISO (9001, 14001 etc.)
+                possui, como ISO (9001, 14001) etc.
               </p>
             </li>
             <li>
@@ -585,7 +586,7 @@ export function Regulamento() {
             <li>
               <p>
                 Certificações: a empresa deverá informar quais certificações
-                possui, como ISO (9001, 14001 etc.)
+                possui, como ISO (9001, 14001) etc.
               </p>
             </li>
             <li>
@@ -671,7 +672,7 @@ export function Regulamento() {
             <li>
               <p>
                 Certificações: a empresa deverá informar quais certificações
-                possui, como ISO (9001, 14001 etc.)
+                possui, como ISO (9001, 14001) etc.
               </p>
             </li>
             <li>
@@ -769,7 +770,7 @@ export function Regulamento() {
             <li>
               <p>
                 Certificações: a empresa deverá informar quais certificações
-                possui, como ISO (9001, 14001 etc.)
+                possui, como ISO (9001, 14001) etc.
               </p>
             </li>
             <li>
@@ -1162,7 +1163,6 @@ export function Regulamento() {
             11.10. O presente regulamento entrará em vigor na data de sua
             divulgação.
           </p>
-          <br />
         </CardRegulamentItem>
       </CardRegulament>
     </div>
