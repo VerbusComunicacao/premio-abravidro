@@ -2,6 +2,7 @@ import Link from 'next/link'
 import CardRegulament from './card-regulament'
 import CardRegulamentItem from './card-regulament-item'
 import { Subtitle } from './subtitle'
+import { FaFilePdf } from 'react-icons/fa'
 
 export function Regulamento() {
   return (
@@ -1169,10 +1170,11 @@ export function Regulamento() {
         <Link
           download="Regulamento"
           target="_blank"
-          className="flex justify-center md:hover:bg-yellow-500 lg:max-w-60 bg-background py-4 px-4 rounded-lg font-bold"
+          className="flex gap-5 justify-center items-center md:hover:bg-yellow-500 lg:max-w-60 bg-background py-2 px-4 rounded-lg font-bold"
           href="https://abravidro.org.br/wp-content/uploads/2024/04/Regulamento_premio-abravidro.pdf"
         >
-          Visualizar PDF Completo
+          <p className="w-36 lg:w-36"> Veja regulamento completo em PDF</p>
+          <FaFilePdf size={30} />
         </Link>
       </CardRegulament>
     </div>
