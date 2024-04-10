@@ -17,7 +17,7 @@ export default function CardRegulament({ children }: { children: ReactNode }) {
   return (
     <Accordion
       type="single"
-      defaultValue="Objetivo"
+      defaultValue="1. Objetivo"
       value={currentValue}
       onValueChange={handleValueChange}
       collapsible
