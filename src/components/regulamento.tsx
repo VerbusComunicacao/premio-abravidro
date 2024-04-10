@@ -154,12 +154,14 @@ export function Regulamento() {
             conformidade técnica do responsável pela obra).
           </p>
           <p>
-            Observação: Vale ressaltar que as categorias 9 e 10 terão os
-            concorrentes indicados pela organização do prêmio, sendo que estes
-            não precisam se inscrever como nas demais categorias. Haverá
-            necessidade de aceite na indicação pelo representante da obra ou
-            profissional escolhido, sendo necessário o envio de fotos e
-            documentos que suportem a indicação.
+            <i>
+              Observação: Vale ressaltar que as categorias 9 e 10 terão os
+              concorrentes indicados pela organização do prêmio, sendo que estes
+              não precisam se inscrever como nas demais categorias. Haverá
+              necessidade de aceite na indicação pelo representante da obra ou
+              profissional escolhido, sendo necessário o envio de fotos e
+              documentos que suportem a indicação.
+            </i>
           </p>
         </CardRegulamentItem>
         <CardRegulamentItem title="4. Cadastro">
@@ -247,7 +249,7 @@ export function Regulamento() {
           <p>
             6.1 A curadora, com o apoio da Abravidro, fará a seleção prévia das
             empresas inscritas que atenderem os requisitos estabelecidos neste
-            regulamento, conforme consta no item 8, levando também em
+            regulamento, conforme consta no item 7, levando também em
             consideração a relevância dos inscritos para o mercado, abrangência
             de atuação, diversidade de portfólio etc.
           </p>
@@ -993,14 +995,16 @@ export function Regulamento() {
           </ul>
           <br />
           <p>
-            <b>A comissão julgadora também irá avaliar:</b>
+            <i>A comissão julgadora também irá avaliar:</i>
           </p>
           <ul className="[&>li]:list-disc [&>li]:ml-4">
             <li>
               <p>
-                Quanto os benefícios oferecidos pelo vidro (segurança,
-                eficiência energética, conforto acústico e térmico) foi
-                explorado na edificação e a criatividade do uso no projeto.
+                <i>
+                  Quanto os benefícios oferecidos pelo vidro (segurança,
+                  eficiência energética, conforto acústico e térmico) foi
+                  explorado na edificação e a criatividade do uso no projeto.
+                </i>
               </p>
             </li>
           </ul>
@@ -1043,14 +1047,16 @@ export function Regulamento() {
           </ul>
           <br />
           <p>
-            <b>A comissão julgadora também irá avaliar:</b>
+            <i>A comissão julgadora também irá avaliar:</i>
           </p>
           <ul className="[&>li]:list-disc [&>li]:ml-4">
             <li>
               <p>
-                Quanto o profissional explora os benefícios oferecidos pelo
-                vidro (segurança, eficiência energética, conforto acústico e
-                térmico) em seus projetos.
+                <i>
+                  Quanto o profissional explora os benefícios oferecidos pelo
+                  vidro (segurança, eficiência energética, conforto acústico e
+                  térmico) em seus projetos.
+                </i>
               </p>
             </li>
           </ul>
