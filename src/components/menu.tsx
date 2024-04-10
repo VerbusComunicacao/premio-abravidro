@@ -45,13 +45,13 @@ export default function Menu() {
 
   return (
     <>
-      <div className="md:hidden">
+      <div className="lg:hidden">
         <Dialog onOpenChange={() => setIsOpen(undefined)} open={isOpen}>
           <DialogTrigger>
             <HamburgerMenuIcon className="ml-5 h-5 w-5" />
           </DialogTrigger>
           <DialogContent
-            className="min-h-screen  justify-center
+            className="min-h-screen justify-center
          flex flex-col items-center border-none pb-20"
           >
             <nav className="text-center text-lg">
@@ -73,7 +73,7 @@ export default function Menu() {
           </DialogContent>
         </Dialog>
       </div>
-      <div className="hidden md:flex justify-end items-center w-full">
+      <div className="hidden lg:flex justify-end items-center w-full">
         <nav className="text-center text-base">
           <ul className="flex gap-5">
             {menu.map(({ href, title }) => {
