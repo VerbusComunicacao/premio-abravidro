@@ -30,9 +30,9 @@ export function HeroSection() {
           o dia 12 de junho, na noite do primeiro dia da mostra.
         </ParagraphAnimated>
         <ParagraphAnimated>
-          Para concorrer, as empresas deverão se inscrever gratuitamente a
-          partir de 8 de abril. Ao todo, são 10 categorias diferentes – confira
-          a lista a seguir.
+          Para concorrer, as empresas deverão
+          <b> se inscrever gratuitamente até 28 de abril</b>. Ao todo, são 10
+          categorias diferentes – confira a lista a seguir.
         </ParagraphAnimated>
         <ParagraphAnimated>
           Participe conosco dessa celebração do setor vidreiro!
