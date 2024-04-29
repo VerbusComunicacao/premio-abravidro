@@ -31,7 +31,7 @@ export function HeroSection() {
         </ParagraphAnimated>
         <ParagraphAnimated>
           Para concorrer, as empresas deverão
-          <b> se inscrever gratuitamente até 28 de abril</b>. Ao todo, são 10
+          <b> se inscrever gratuitamente até 5 de maio</b>. Ao todo, são 10
           categorias diferentes – confira a lista a seguir.
         </ParagraphAnimated>
         <ParagraphAnimated>
