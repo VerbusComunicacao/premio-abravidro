@@ -30,9 +30,10 @@ export function HeroSection() {
           o dia 12 de junho, na noite do primeiro dia da mostra.
         </ParagraphAnimated>
         <ParagraphAnimated>
-          Para concorrer, as empresas deverão
-          <b> se inscrever gratuitamente até 5 de maio</b>. Ao todo, são 10
-          categorias diferentes – confira a lista a seguir.
+          Após, nesta primeira edição, receber inscrições de empresas de todo o
+          Brasil, estamos em fase de validação das inscrições para, no dia 15 de
+          maio, abrir o período de votação popular. Ao todo, são 10 categorias
+          diferentes – confira a lista a seguir.
         </ParagraphAnimated>
         <ParagraphAnimated>
           Participe conosco dessa celebração do setor vidreiro!
