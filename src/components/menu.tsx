@@ -3,8 +3,11 @@
 import { HamburgerMenuIcon } from '@radix-ui/react-icons'
 import { Dialog, DialogContent, DialogTrigger } from './ui/dialog'
 import { useState } from 'react'
+import { useRouter } from 'next/navigation'
 
 export default function Menu() {
+  const router = useRouter()
+
   const [isOpen, setIsOpen] = useState<boolean | undefined>(undefined)
 
   const menu = [
@@ -40,6 +43,8 @@ export default function Menu() {
         top: offsetPosition,
         behavior: 'smooth',
       })
+    } else {
+      router.push(`/#${id}`)
     }
   }
 

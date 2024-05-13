@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import Logo from './logo'
 import { Subtitle } from './subtitle'
 import ParagraphAnimated from './paragraph-animated'
+import Link from 'next/link'
 
 export function HeroSection() {
   return (
@@ -11,7 +12,13 @@ export function HeroSection() {
       <motion.div>
         <Logo />
       </motion.div>
-      <div className="max-w-md mt-10 [&>p]:pt-5">
+      <Link
+        className="block w-96 text-blue-950 text-center mt-5 bg-yellow-500 hover:scale-110 transition-all duration-200 px-4 py-4 rounded-lg text-xl font-bold"
+        href="/votacao"
+      >
+        Vote nas suas empresas favoritas
+      </Link>
+      <div className="max-w-md mt-12 [&>p]:pt-5">
         <Subtitle color="secondary">
           Celebrando o trabalho
           <br className="hidden md:inline" /> do setor
