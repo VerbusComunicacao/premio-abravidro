@@ -40,7 +40,7 @@ export function HeroSection() {
           O período de inscrição para esta primeira edição foi um sucesso, com
           centenas de inscrições de empresas e indicações de projetos, obras e
           especificadores. Agora estamos na fase de voto popular, aberto até o
-          dia 22. Qualquer pessoa pode votar em nove categorias!
+          dia 22 de maio. Qualquer pessoa pode votar em nove categorias!
         </ParagraphAnimated>
         <ParagraphAnimated>
           Participe conosco dessa celebração do setor vidreiro!
