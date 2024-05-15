@@ -34,13 +34,13 @@ export function HeroSection() {
           O prêmio terá periodicidade bienal, sendo apresentado durante a Glass
           South America, a maior feira do mercado de vidro na América Latina. A
           primeira edição ocorre este ano, com cerimônia de entrega marcada para
-          o dia 12 de junho, na noite do primeiro dia da mostra.
+          o dia 12 de junho, às 17 horas.
         </ParagraphAnimated>
         <ParagraphAnimated>
-          Após, nesta primeira edição, receber inscrições de empresas de todo o
-          Brasil, estamos em fase de validação das inscrições para, no dia 15 de
-          maio, abrir o período de votação popular. Ao todo, são 10 categorias
-          diferentes – confira a lista a seguir.
+          O período de inscrição para esta primeira edição foi um sucesso, com
+          centenas de inscrições de empresas e indicações de projetos, obras e
+          especificadores. Agora estamos na fase de voto popular, aberto até o
+          dia 22. Qualquer pessoa pode votar em nove categorias!
         </ParagraphAnimated>
         <ParagraphAnimated>
           Participe conosco dessa celebração do setor vidreiro!
