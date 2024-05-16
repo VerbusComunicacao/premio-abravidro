@@ -36,7 +36,7 @@ function IframeLoader() {
         src="https://pt.surveymonkey.com/r/JPQRSND"
         title="Votação Abravidro"
         style={{ height: 'calc(100vh + 80px)', width: '100%' }}
-        className=" -mt-20 md:-mt-8 overflow-hidden"
+        className=" mt-28 md:mt-28 overflow-hidden"
         height="100vh"
         width="100%"
         onLoad={() => setLoading(false)}
