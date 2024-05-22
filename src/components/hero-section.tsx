@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import Logo from './logo'
 import { Subtitle } from './subtitle'
 import ParagraphAnimated from './paragraph-animated'
-import Link from 'next/link'
+// import Link from 'next/link'
 
 export function HeroSection() {
   return (
@@ -12,12 +12,12 @@ export function HeroSection() {
       <motion.div>
         <Logo />
       </motion.div>
-      <Link
+      {/* <Link
         className="block w-96 text-blue-950 text-center mt-5 bg-yellow-500 hover:scale-110 transition-all duration-200 px-4 py-4 rounded-lg text-xl font-bold"
         href="/votacao"
       >
         Vote nas suas empresas favoritas
-      </Link>
+      </Link> */}
       <div className="max-w-md mt-12 [&>p]:pt-5">
         <Subtitle color="secondary">
           Celebrando o trabalho
@@ -35,12 +35,6 @@ export function HeroSection() {
           South America, a maior feira do mercado de vidro na América Latina. A
           primeira edição ocorre este ano, com cerimônia de entrega marcada para
           o dia 12 de junho, às 17 horas.
-        </ParagraphAnimated>
-        <ParagraphAnimated>
-          O período de inscrição para esta primeira edição foi um sucesso, com
-          centenas de inscrições de empresas e indicações de projetos, obras e
-          especificadores. Agora estamos na fase de voto popular, aberto até o
-          dia 22 de maio. Qualquer pessoa pode votar em nove categorias!
         </ParagraphAnimated>
         <ParagraphAnimated>
           Participe conosco dessa celebração do setor vidreiro!

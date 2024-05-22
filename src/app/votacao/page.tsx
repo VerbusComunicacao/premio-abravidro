@@ -1,12 +1,12 @@
 import { Header } from '@/components/header'
-import IframeLoader from '@/components/iframe-loader'
 
 export default function Votacao() {
   return (
     <div>
       <Header />
-      <div className=" bg-white"></div>
-      <IframeLoader />
+      <div className="flex justify-center items-center min-h-screen bg-white">
+        <p className="text-background ">Período de votação encerrado</p>
+      </div>
     </div>
   )
 }
