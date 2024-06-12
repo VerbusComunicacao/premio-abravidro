@@ -16,8 +16,12 @@ export default function Menu() {
       href: 'inicio',
     },
     {
-      title: 'Categorias',
-      href: 'categorias',
+      title: 'Vencedores',
+      href: 'vencedores',
+    },
+    {
+      title: 'Comissão Julgadora',
+      href: 'jurados',
     },
     {
       title: 'Regulamento',
@@ -30,6 +34,9 @@ export default function Menu() {
   ]
 
   function handleClickLink(id: string) {
+    if (id === 'jurados' || id === 'vencedores') {
+      return router.push(`/${id}`)
+    }
     const element = document.getElementById(id)
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' })

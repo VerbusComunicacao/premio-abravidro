@@ -9,6 +9,7 @@ import { HeroSection } from '@/components/hero-section'
 import Footer from '@/components/footer'
 import Contact from '@/components/contact'
 import { Regulamento } from '@/components/regulamento'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -57,7 +58,16 @@ export default function Home() {
               </Category>
             </div>
           </div>
+          <div className="mt-10">
+            <Link
+              className="bg-background p-5 rounded-lg font-bold"
+              href={'/vencedores'}
+            >
+              Conheça os vencedores!
+            </Link>
+          </div>
         </Container>
+
         <Container>
           <Regulamento />
         </Container>
