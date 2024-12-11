@@ -24,20 +24,19 @@ export function HeroSection() {
           <br className="hidden md:inline" /> do setor
         </Subtitle>
         <ParagraphAnimated>
-          A Abravidro e a NürnbergMesse Brasil se juntaram para criar a mais
-          nova premiação do segmento vidreiro nacional, o Prêmio Abravidro Glass
-          South America. A iniciativa tem o objetivo de reconhecer as marcas que
-          atuam nos diversos elos de nossa cadeia, trabalhando com produtos de
-          qualidade e excelência no atendimento aos clientes.
+          A Abravidro e a NürnbergMesse Brasil criaram o Prêmio Abravidro Glass
+          South America, iniciativa com o objetivo de reconhecer as marcas que
+          atuam nos diversos elos da cadeia vidreira.
         </ParagraphAnimated>
         <ParagraphAnimated>
-          O prêmio terá periodicidade bienal, sendo apresentado durante a Glass
-          South America, a maior feira do mercado de vidro na América Latina. A
-          primeira edição ocorre este ano, com cerimônia de entrega marcada para
-          o dia 12 de junho, às 17 horas.
+          No dia 12 de junho de 2024, primeiro dia da 15ª Glass South America,
+          realizou-se a cerimônia de entrega da 1ª edição do prêmio. Os números
+          da edição de estreia foram grandiosos: dez categorias
+          contempladas, 105 empresas e 94 obras com vidro inscritas, 31 escritórios
+          de arquitetura mencionados e 6 mil votos na fase de votação popular.
         </ParagraphAnimated>
         <ParagraphAnimated>
-          Participe conosco dessa celebração do setor vidreiro!
+        Aguarde! Em breve, divulgaremos informações sobre a próxima edição!
         </ParagraphAnimated>
       </div>
     </>
