@@ -31,12 +31,12 @@ export function HeroSection() {
         <ParagraphAnimated>
           No dia 12 de junho de 2024, primeiro dia da 15ª Glass South America,
           realizou-se a cerimônia de entrega da 1ª edição do prêmio. Os números
-          da edição de estreia foram grandiosos: dez categorias
-          contempladas, 105 empresas e 94 obras com vidro inscritas, 31 escritórios
-          de arquitetura mencionados e 6 mil votos na fase de votação popular.
+          da edição de estreia foram grandiosos: dez categorias contempladas,
+          105 empresas e 94 obras com vidro inscritas, 31 escritórios de
+          arquitetura mencionados e 6 mil votos na fase de votação popular.
         </ParagraphAnimated>
         <ParagraphAnimated>
-        Aguarde! Em breve, divulgaremos informações sobre a próxima edição!
+          Aguarde! Em breve, divulgaremos informações sobre a próxima edição!
         </ParagraphAnimated>
       </div>
     </>
