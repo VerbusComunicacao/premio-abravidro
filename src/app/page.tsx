@@ -8,6 +8,7 @@ import { HeroSection } from '@/components/hero-section'
 
 import Footer from '@/components/footer'
 import { getHeroContent, getCategories } from '@/lib/wordpress'
+import Link from 'next/link'
 
 export default async function Home() {
   const heroContent = await getHeroContent()
@@ -36,6 +37,14 @@ export default async function Home() {
                 </Category>
               ))}
             </div>
+          </div>
+          <div className="mt-10">
+            <Link
+              className="bg-background p-5 rounded-lg font-bold"
+              href={'/vencedores'}
+            >
+              Conheça os vencedores!
+            </Link>
           </div>
         </Container>
       </div>
