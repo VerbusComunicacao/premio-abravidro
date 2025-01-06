@@ -1,4 +1,5 @@
-import { Category, HeroContent } from '@/types/wordpress'
+import { Category } from "@/types/category"
+import { HeroContent } from "@/types/hero-content"
 
 const WP_URL = process.env.NEXT_PUBLIC_WORDPRESS_URL || 'http://localhost/wordpress'
 
@@ -18,11 +19,23 @@ export async function getHeroContent(): Promise<HeroContent> {
     query HeroContent {
       page(id: "hero", idType: URI) {
         title
-        content
+        hero {
+          subtitle
+          paragraphs
+        }
       }
     }
   `)
-  return data?.page
+
+  const paragraphs = data?.page?.hero?.paragraphs.split('\r\n\r\n').map((paragraph: string) => ({
+    paragraph
+  }))
+
+  return {
+    title: data?.page?.title,
+    subtitle :data?.page?.hero?.subtitle,
+    paragraphs: paragraphs
+  }
 }
 
 export async function getCategories(): Promise<Category[]> {
@@ -45,8 +58,6 @@ export async function getCategories(): Promise<Category[]> {
 
 
   const categories = data?.categorias?.edges.map((edge: any) => edge.node)
-
-  console.log('categories', categories)
 
   return categories as Category[]
 } 
