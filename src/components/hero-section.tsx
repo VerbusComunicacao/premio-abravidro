@@ -4,16 +4,13 @@ import { motion } from 'framer-motion'
 import Logo from './logo'
 import { Subtitle } from './subtitle'
 import ParagraphAnimated from './paragraph-animated'
-import { HeroContent } from '@/types/wordpress'
+import { HeroContent } from '@/types/hero-content'
 
 interface HeroSectionProps {
   content: HeroContent
 }
 
 export function HeroSection({ content }: HeroSectionProps) {
-
-  console.log('content', content.content)
-
   return (
     <>
       <motion.div>
@@ -21,11 +18,11 @@ export function HeroSection({ content }: HeroSectionProps) {
       </motion.div>
       <div className="max-w-md mt-12 [&>p]:pt-5">
         <Subtitle color="secondary">
-          {content.title}
+          {content.subtitle}
         </Subtitle>
-        {content.content.split('\n').map((paragrafo, index) => (
+        {content.paragraphs.map((paragrafo, index) => (
           <ParagraphAnimated key={index}>
-            {paragrafo}
+            {paragrafo.paragraph}
           </ParagraphAnimated>
         ))}
       </div>

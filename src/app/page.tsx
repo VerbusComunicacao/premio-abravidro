@@ -9,6 +9,8 @@ import { HeroSection } from '@/components/hero-section'
 import Footer from '@/components/footer'
 import { getHeroContent, getCategories } from '@/lib/wordpress'
 import Link from 'next/link'
+import { Regulamento } from '@/components/regulamento'
+import Contact from '@/components/contact'
 
 export default async function Home() {
   const heroContent = await getHeroContent()
@@ -46,6 +48,12 @@ export default async function Home() {
               Conheça os vencedores!
             </Link>
           </div>
+        </Container>
+        <Container>
+          <Regulamento />
+        </Container>
+        <Container>
+          <Contact />
         </Container>
       </div>
       <div className="py-10 flex flex-col justify-center bg-blue-950">
