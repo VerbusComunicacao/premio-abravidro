@@ -7,10 +7,11 @@ import { Subtitle } from '@/components/subtitle'
 import { HeroSection } from '@/components/hero-section'
 
 import Footer from '@/components/footer'
-import { getHeroContent, getCategories } from '@/lib/wordpress'
 import Link from 'next/link'
 import { Regulamento } from '@/components/regulamento'
 import Contact from '@/components/contact'
+import { getCategories } from '@/repository/get-categories'
+import { getHeroContent } from '@/repository/get-hero-content'
 
 export default async function Home() {
   const heroContent = await getHeroContent()
