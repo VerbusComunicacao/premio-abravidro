@@ -23,6 +23,6 @@ export async function getHeroContent(): Promise<HeroContent> {
   return {
     title: data?.page?.title,
     subtitle: data?.page?.hero?.subtitle,
-    paragraphs: paragraphs,
+    paragraphs,
   }
 }
