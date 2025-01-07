@@ -1,110 +1,110 @@
-import { Container } from '@/components/container'
-import { Subtitle } from '@/components/subtitle'
-import Footer from '@/components/footer'
-import Background from '@/components/background'
-import { Header } from '@/components/header'
+import { Container } from "@/components/container"
+import { Subtitle } from "@/components/subtitle"
+import Footer from "@/components/footer"
+import Background from "@/components/background"
+import { Header } from "@/components/header"
 
 const judges = [
   {
-    category: 'Fabricantes de Vidros Planos',
+    category: "Fabricantes de Vidros Planos",
     names: [
-      'Maurício Ribeiro',
-      'Vítor Casaca',
-      'Alfredo dos Anjos Martins',
-      'José Domingos Seixas',
-      'Leonir Nicaretta',
+      "Maurício Ribeiro",
+      "Vítor Casaca",
+      "Alfredo dos Anjos Martins",
+      "José Domingos Seixas",
+      "Leonir Nicaretta",
     ],
   },
   {
-    category: 'Processadores de Vidro',
+    category: "Processadores de Vidro",
     names: [
-      'Dinho Nakano',
-      'Jorge Menezes',
-      'José Ricardo D´Araujo Martins',
-      'Pedro Ruiz',
-      'Edweiss Silva',
-    ],
-  },
-  {
-    category:
-      'Fabricantes de Máquinas e Equipamentos para Processamento de Vidro',
-    names: [
-      'Dinho Nakano',
-      'Rafael Brumm Ribeiro',
-      'Albert Pestana',
-      'Leandro Gonçalves Pedro',
-      'Marcus Aurélius Pezotti',
-    ],
-  },
-  {
-    category: 'Fabricantes de Insumos para o Processamento de Vidro',
-    names: [
-      'Emerson Arcênio',
-      'Leandro Gonçalves Pedro',
-      'Albert Pestana',
-      'Rafael Brumm Ribeiro',
-      'Jairo Martins',
-    ],
-  },
-  {
-    category: 'Fabricantes de Ferragens e Acessórios para Vidro',
-    names: [
-      'Leandro Gonçalves Pedro',
-      'Gabriel Batista',
-      'Gi Matos',
-      'Jorge Menezes',
-      'Leandro de Carvalho Santana',
-    ],
-  },
-  {
-    category: 'Fabricantes de Sistemas para Envidraçamentos',
-    names: [
-      'Leandro Gonçalves Pedro',
-      'Gabriel Batista',
-      'Gi Matos',
-      'Jorge Menezes',
-      'Leandro de Carvalho Santana',
+      "Dinho Nakano",
+      "Jorge Menezes",
+      "José Ricardo D´Araujo Martins",
+      "Pedro Ruiz",
+      "Edweiss Silva",
     ],
   },
   {
     category:
-      'Fabricantes de Selantes, Gaxetas, e Adesivos (Materiais para Fixação e Vedação)',
+      "Fabricantes de Máquinas e Equipamentos para Processamento de Vidro",
     names: [
-      'Renato Santana',
-      'Gabriel Batista',
-      'Gi Matos',
-      'Sandro Rensi',
-      'Leandro de Carvalho Santana',
+      "Dinho Nakano",
+      "Rafael Brumm Ribeiro",
+      "Albert Pestana",
+      "Leandro Gonçalves Pedro",
+      "Marcus Aurélius Pezotti",
     ],
   },
   {
-    category: 'Vidraçarias',
+    category: "Fabricantes de Insumos para o Processamento de Vidro",
     names: [
-      'Leandro Gonçalves Pedro',
-      'Gabriel Batista',
-      'Gi Matos',
-      'Jorge Menezes',
-      'Leandro De Carvalho Santana',
+      "Emerson Arcênio",
+      "Leandro Gonçalves Pedro",
+      "Albert Pestana",
+      "Rafael Brumm Ribeiro",
+      "Jairo Martins",
     ],
   },
   {
-    category: 'Projetos e Obras que Empregam Vidros',
+    category: "Fabricantes de Ferragens e Acessórios para Vidro",
     names: [
-      'Iara Bentes',
-      'João Paulo Picolo',
-      'Fernando Westphal',
-      'Crescêncio Petrucci Jr',
-      'Raimundo Calixto de Melo Neto',
+      "Leandro Gonçalves Pedro",
+      "Gabriel Batista",
+      "Gi Matos",
+      "Jorge Menezes",
+      "Leandro de Carvalho Santana",
     ],
   },
   {
-    category: 'Arquitetos Especificadores de Obras com Vidro',
+    category: "Fabricantes de Sistemas para Envidraçamentos",
     names: [
-      'Iara Bentes',
-      'João Paulo Piccolo',
-      'Fernando Westphal',
-      'Crescêncio Petrucci Jr',
-      'Raimundo Calixto de Melo Neto',
+      "Leandro Gonçalves Pedro",
+      "Gabriel Batista",
+      "Gi Matos",
+      "Jorge Menezes",
+      "Leandro de Carvalho Santana",
+    ],
+  },
+  {
+    category:
+      "Fabricantes de Selantes, Gaxetas, e Adesivos (Materiais para Fixação e Vedação)",
+    names: [
+      "Renato Santana",
+      "Gabriel Batista",
+      "Gi Matos",
+      "Sandro Rensi",
+      "Leandro de Carvalho Santana",
+    ],
+  },
+  {
+    category: "Vidraçarias",
+    names: [
+      "Leandro Gonçalves Pedro",
+      "Gabriel Batista",
+      "Gi Matos",
+      "Jorge Menezes",
+      "Leandro De Carvalho Santana",
+    ],
+  },
+  {
+    category: "Projetos e Obras que Empregam Vidros",
+    names: [
+      "Iara Bentes",
+      "João Paulo Picolo",
+      "Fernando Westphal",
+      "Crescêncio Petrucci Jr",
+      "Raimundo Calixto de Melo Neto",
+    ],
+  },
+  {
+    category: "Arquitetos Especificadores de Obras com Vidro",
+    names: [
+      "Iara Bentes",
+      "João Paulo Piccolo",
+      "Fernando Westphal",
+      "Crescêncio Petrucci Jr",
+      "Raimundo Calixto de Melo Neto",
     ],
   },
 ]

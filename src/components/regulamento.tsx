@@ -1,8 +1,8 @@
-import Link from 'next/link'
-import CardRegulament from './card-regulament'
-import CardRegulamentItem from './card-regulament-item'
-import { Subtitle } from './subtitle'
-import { FaFilePdf } from 'react-icons/fa'
+import Link from "next/link"
+import CardRegulament from "./card-regulament"
+import CardRegulamentItem from "./card-regulament-item"
+import { Subtitle } from "./subtitle"
+import { FaFilePdf } from "react-icons/fa"
 
 export function Regulamento() {
   return (

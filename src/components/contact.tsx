@@ -1,6 +1,6 @@
-import { FaPhoneAlt } from 'react-icons/fa'
-import { Subtitle } from './subtitle'
-import { MdEmail } from 'react-icons/md'
+import { FaPhoneAlt } from "react-icons/fa"
+import { Subtitle } from "./subtitle"
+import { MdEmail } from "react-icons/md"
 
 export default function Contact() {
   return (

@@ -1,6 +1,6 @@
-'use client'
+"use client"
 
-import { useState } from 'react'
+import { useState } from "react"
 
 function IframeLoader() {
   const [loading, setLoading] = useState(true)
@@ -35,7 +35,7 @@ function IframeLoader() {
       <iframe
         src="https://pt.surveymonkey.com/r/JPQRSND"
         title="Votação Abravidro"
-        style={{ height: 'calc(100vh + 80px)', width: '100%' }}
+        style={{ height: "calc(100vh + 80px)", width: "100%" }}
         className=" mt-28 md:mt-28 overflow-hidden"
         height="100vh"
         width="100%"
