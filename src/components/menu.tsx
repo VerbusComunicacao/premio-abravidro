@@ -1,9 +1,9 @@
-'use client'
+"use client"
 
-import { HamburgerMenuIcon } from '@radix-ui/react-icons'
-import { Dialog, DialogContent, DialogTrigger } from './ui/dialog'
-import { useState } from 'react'
-import { useRouter } from 'next/navigation'
+import { HamburgerMenuIcon } from "@radix-ui/react-icons"
+import { Dialog, DialogContent, DialogTrigger } from "./ui/dialog"
+import { useState } from "react"
+import { useRouter } from "next/navigation"
 
 export default function Menu() {
   const router = useRouter()
@@ -12,34 +12,34 @@ export default function Menu() {
 
   const menu = [
     {
-      title: 'Início',
-      href: 'inicio',
+      title: "Início",
+      href: "inicio",
     },
     {
-      title: 'Vencedores',
-      href: 'vencedores',
+      title: "Vencedores",
+      href: "vencedores",
     },
     {
-      title: 'Comissão Julgadora',
-      href: 'jurados',
+      title: "Comissão Julgadora",
+      href: "jurados",
     },
     {
-      title: 'Regulamento',
-      href: 'regulamento',
+      title: "Regulamento",
+      href: "regulamento",
     },
     {
-      title: 'Contato',
-      href: 'contato',
+      title: "Contato",
+      href: "contato",
     },
   ]
 
   function handleClickLink(id: string) {
-    if (id === 'jurados' || id === 'vencedores') {
+    if (id === "jurados" || id === "vencedores") {
       return router.push(`/${id}`)
     }
     const element = document.getElementById(id)
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' })
+      element.scrollIntoView({ behavior: "smooth" })
       setIsOpen(false)
 
       const elementPosition =
@@ -48,7 +48,7 @@ export default function Menu() {
 
       window.scrollTo({
         top: offsetPosition,
-        behavior: 'smooth',
+        behavior: "smooth",
       })
     } else {
       router.push(`/#${id}`)

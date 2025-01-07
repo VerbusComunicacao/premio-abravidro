@@ -1,8 +1,8 @@
-import logoGlass from '../../public/logo-glass.png'
-import logoAbravidro from '../../public/abravidro.png'
-import Image from 'next/image'
-import Menu from './menu'
-import Link from 'next/link'
+import logoGlass from "../../public/logo-glass.png"
+import logoAbravidro from "../../public/abravidro.png"
+import Image from "next/image"
+import Menu from "./menu"
+import Link from "next/link"
 
 export function Header() {
   return (
@@ -18,7 +18,7 @@ export function Header() {
               alt="Logo Abravidro"
               width={150}
               style={{
-                objectFit: 'cover',
+                objectFit: "cover",
               }}
               className="w-72 h-16"
             />
@@ -32,7 +32,7 @@ export function Header() {
               alt="Logo Abravidro"
               width={290}
               style={{
-                objectFit: 'cover',
+                objectFit: "cover",
               }}
               className="ml-5 w-80 h-28"
             />
@@ -48,7 +48,7 @@ export function Header() {
               alt="Logo Abravidro"
               width={140}
               style={{
-                objectFit: 'cover',
+                objectFit: "cover",
               }}
             />
           </Link>
@@ -59,7 +59,7 @@ export function Header() {
                 alt="Logo Abravidro"
                 width={180}
                 style={{
-                  objectFit: 'cover',
+                  objectFit: "cover",
                 }}
               />
             </Link>

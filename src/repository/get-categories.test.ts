@@ -1,6 +1,6 @@
 import { getCategories } from "@/repository/get-categories"
 
-test('getCategories', async () => {
+test("getCategories", async () => {
   const categories = await getCategories()
   expect(Array.isArray(categories)).toBe(true)
   expect(categories[0]).toEqual({

@@ -1,17 +1,17 @@
-import Background from '@/components/background'
-import { Header } from '@/components/header'
-import { Container } from '@/components/container'
-import { Category } from '@/components/category'
-import { Subtitle } from '@/components/subtitle'
+import Background from "@/components/background"
+import { Header } from "@/components/header"
+import { Container } from "@/components/container"
+import { Category } from "@/components/category"
+import { Subtitle } from "@/components/subtitle"
 
-import { HeroSection } from '@/components/hero-section'
+import { HeroSection } from "@/components/hero-section"
 
-import Footer from '@/components/footer'
-import Link from 'next/link'
-import { Regulamento } from '@/components/regulamento'
-import Contact from '@/components/contact'
-import { getCategories } from '@/repository/get-categories'
-import { getHeroContent } from '@/repository/get-hero-content'
+import Footer from "@/components/footer"
+import Link from "next/link"
+import { Regulamento } from "@/components/regulamento"
+import Contact from "@/components/contact"
+import { getCategories } from "@/repository/get-categories"
+import { getHeroContent } from "@/repository/get-hero-content"
 
 export default async function Home() {
   const heroContent = await getHeroContent()
@@ -30,7 +30,7 @@ export default async function Home() {
             <Subtitle>Categorias</Subtitle>
             <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-3 mt-5 content-start">
               {categories.map((category) => (
-                <Category 
+                <Category
                   key={category.title}
                   title={category.title}
                   callAction={category.categoryFields.callToAction}
@@ -44,7 +44,7 @@ export default async function Home() {
           <div className="mt-10">
             <Link
               className="bg-background p-5 rounded-lg font-bold"
-              href={'/vencedores'}
+              href={"/vencedores"}
             >
               Conheça os vencedores!
             </Link>

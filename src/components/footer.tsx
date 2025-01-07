@@ -1,9 +1,9 @@
-import Link from 'next/link'
-import logoEsquadria from '../../public/logo-Esquadria.png'
-import logoGlass from '../../public/logo-glass.png'
-import AbravidroImg from '../../public/abravidro.png'
-import NMBImg from '../../public/NMB.png'
-import Image from 'next/image'
+import Link from "next/link"
+import logoEsquadria from "../../public/logo-Esquadria.png"
+import logoGlass from "../../public/logo-glass.png"
+import AbravidroImg from "../../public/abravidro.png"
+import NMBImg from "../../public/NMB.png"
+import Image from "next/image"
 
 export default function Footer() {
   return (
@@ -29,7 +29,7 @@ export default function Footer() {
                 alt="Logo Glass South America"
                 width={250}
                 style={{
-                  objectFit: 'cover',
+                  objectFit: "cover",
                 }}
                 className="h-14 w-56"
               />
@@ -45,7 +45,7 @@ export default function Footer() {
                 alt="Logo Abravidro"
                 width={250}
                 style={{
-                  objectFit: 'cover',
+                  objectFit: "cover",
                 }}
                 className="h-10"
               />

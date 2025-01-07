@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import logo from '../../public/logo.webp'
+import Image from "next/image"
+import logo from "../../public/logo.webp"
 
 export default function Logo() {
   return (
@@ -12,7 +12,7 @@ export default function Logo() {
             alt="Prêmio Abravidro"
             src={logo}
             style={{
-              objectFit: 'cover',
+              objectFit: "cover",
             }}
           />
         </h1>

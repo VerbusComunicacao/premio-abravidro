@@ -14,13 +14,15 @@ export async function getHeroContent(): Promise<HeroContent> {
     }
   `)
 
-  const paragraphs = data?.page?.hero?.paragraphs.split('\r\n\r\n').map((paragraph: string) => ({
-    paragraph
-  }))
+  const paragraphs = data?.page?.hero?.paragraphs
+    .split("\r\n\r\n")
+    .map((paragraph: string) => ({
+      paragraph,
+    }))
 
   return {
     title: data?.page?.title,
-    subtitle :data?.page?.hero?.subtitle,
-    paragraphs: paragraphs
+    subtitle: data?.page?.hero?.subtitle,
+    paragraphs: paragraphs,
   }
 }

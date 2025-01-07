@@ -5,4 +5,4 @@ export interface Category {
     callToAction?: string
     link?: string
   }
-} 
+}

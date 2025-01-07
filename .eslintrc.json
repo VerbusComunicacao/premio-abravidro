@@ -1,6 +1,6 @@
 {
   "extends": [
-    "@rocketseat/eslint-config/next", 
+    "@rocketseat/eslint-config/next",
     "plugin:jest/recommended",
     "next/core-web-vitals"
   ]

@@ -1,14 +1,14 @@
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import './globals.css'
+import type { Metadata } from "next"
+import { Inter } from "next/font/google"
+import "./globals.css"
 
-import { GoogleAnalytics } from '@next/third-parties/google'
+import { GoogleAnalytics } from "@next/third-parties/google"
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: 'Prêmio Abravidro Glass South America',
-  description: 'Prêmio Abravidro Glass South America.',
+  title: "Prêmio Abravidro Glass South America",
+  description: "Prêmio Abravidro Glass South America.",
 }
 
 export default function RootLayout({

@@ -1,8 +1,8 @@
-import { fetchAPI } from "@/lib/wordpress";
-import { Category } from "@/types/category";
+import { fetchAPI } from "@/lib/wordpress"
+import { Category } from "@/types/category"
 
 export async function getCategories(): Promise<Category[]> {
-    const data = await fetchAPI(`
+  const data = await fetchAPI(`
       query Categories {
         categorias (first: 10) {
           edges {
@@ -19,8 +19,7 @@ export async function getCategories(): Promise<Category[]> {
       }
     `)
 
-    const categories = data?.categorias?.edges.map((edge: any) => edge.node)
+  const categories = data?.categorias?.edges.map((edge: any) => edge.node)
 
-    return categories as Category[]
- 
-} 
+  return categories as Category[]
+}

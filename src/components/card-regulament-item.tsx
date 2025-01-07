@@ -1,9 +1,9 @@
-import { ReactNode } from 'react'
+import { ReactNode } from "react"
 import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from './ui/accordion'
+} from "./ui/accordion"
 
 export default function CardRegulamentItem({
   children,

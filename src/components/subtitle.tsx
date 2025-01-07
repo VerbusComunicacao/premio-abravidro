@@ -1,14 +1,14 @@
-'use client'
+"use client"
 
-import { motion } from 'framer-motion'
-import { ReactNode } from 'react'
+import { motion } from "framer-motion"
+import { ReactNode } from "react"
 
 export function Subtitle({
   children,
-  color = 'primary',
+  color = "primary",
 }: {
   children: ReactNode
-  color?: 'primary' | 'secondary'
+  color?: "primary" | "secondary"
 }) {
   return (
     <motion.div
@@ -18,7 +18,7 @@ export function Subtitle({
       viewport={{ once: true }}
     >
       <h2
-        className={`font-bold text-3xl pb-4 ${color === 'primary' ? 'text-background' : 'text-white'}`}
+        className={`font-bold text-3xl pb-4 ${color === "primary" ? "text-background" : "text-white"}`}
       >
         {children}
       </h2>

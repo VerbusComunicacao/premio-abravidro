@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import background from '../../public/background.webp'
+import Image from "next/image"
+import background from "../../public/background.webp"
 
 export default function Background() {
   return (
@@ -10,10 +10,10 @@ export default function Background() {
       placeholder="blur"
       quality={100}
       style={{
-        objectFit: 'cover',
+        objectFit: "cover",
         zIndex: -1,
-        position: 'fixed',
-        objectPosition: 'left',
+        position: "fixed",
+        objectPosition: "left",
       }}
       className="h-full w-full"
     />

@@ -1,8 +1,8 @@
-'use client'
+"use client"
 
-import { motion } from 'framer-motion'
-import { ReactNode } from 'react'
-import { Popover, PopoverContent, PopoverTrigger } from './ui/popover'
+import { motion } from "framer-motion"
+import { ReactNode } from "react"
+import { Popover, PopoverContent, PopoverTrigger } from "./ui/popover"
 
 export function Category({
   title,
@@ -23,7 +23,7 @@ export function Category({
         translateY: 50,
       }}
       whileInView={{ opacity: 1, translateY: 0 }}
-      transition={{ duration: 1, easings: ['easeInOut'] }}
+      transition={{ duration: 1, easings: ["easeInOut"] }}
       viewport={{ once: true }}
     >
       <h3 className="text-background font-bold uppercase">{title}</h3>
@@ -41,7 +41,7 @@ export function Category({
             className="text-sm text-zinc-500 underline hover:text-white"
             href={link}
           >
-            {callAction ?? 'Inscreva-se'}
+            {callAction ?? "Inscreva-se"}
           </a>
         )}
       </div>

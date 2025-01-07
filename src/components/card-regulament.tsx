@@ -1,7 +1,7 @@
-'use client'
+"use client"
 
-import { ReactNode, useState } from 'react'
-import { Accordion } from './ui/accordion'
+import { ReactNode, useState } from "react"
+import { Accordion } from "./ui/accordion"
 
 export default function CardRegulament({ children }: { children: ReactNode }) {
   const [currentValue, setCurrentValue] = useState<string | undefined>(
