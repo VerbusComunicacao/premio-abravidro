@@ -8,7 +8,6 @@ import { HeroSection } from '@/components/hero-section'
 
 import Footer from '@/components/footer'
 import Contact from '@/components/contact'
-import { Regulamento } from '@/components/regulamento'
 import Link from 'next/link'
 
 export default function Home() {
@@ -24,25 +23,41 @@ export default function Home() {
           <div className=" ">
             <Subtitle>Categorias</Subtitle>
             <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-3 mt-5 content-start">
-              <Category title={'Fabricantes de vidro plano'} />
+              <Category title={'Fabricantes de vidro plano'} link="#" />
 
-              <Category title={'Processadores de vidro'} />
+              <Category title={'Processadores de vidro'} link="#" />
 
-              <Category title="Fabricantes de máquinas e equipamentos para processamento de vidro" />
+              <Category
+                title="Fabricantes de máquinas e equipamentos para processamento de vidro"
+                link="#"
+              />
 
-              <Category title="Fabricante de insumos para o processamento de vidros" />
+              <Category
+                title="Fabricante de insumos para o processamento de vidros"
+                link="#"
+              />
 
-              <Category title="Fabricante de ferragens e acessórios para vidro" />
+              <Category
+                title="Fabricante de ferragens e acessórios para vidro"
+                link="#"
+              />
 
-              <Category title="Fabricantes de sistemas para envidraçamentos" />
+              <Category
+                title="Fabricantes de sistemas para envidraçamentos"
+                link="#"
+              />
 
-              <Category title="Fabricante de selantes, gaxetas e adesivos (materiais para fixação e vedação)" />
+              <Category
+                title="Fabricante de selantes, gaxetas e adesivos (materiais para fixação e vedação)"
+                link="#"
+              />
 
-              <Category title={'Vidraçaria'} />
+              <Category title={'Vidraçaria'} link="#" />
 
               <Category
                 title={'Projetos e obras que empregam vidros'}
-                callAction="Indique um projeto"
+                callAction="Inscreva ou indique"
+                link="#"
               >
                 {/* Os concorrentes desta categoria serão indicados pela organização
                 do prêmio e, para concorrer, precisarão aceitar a indicação,
@@ -50,7 +65,8 @@ export default function Home() {
               </Category>
               <Category
                 title={'Arquiteto especificador de obras com vidro'}
-                callAction="Indique um profissional"
+                callAction="Inscreva ou indique"
+                link="#"
               >
                 {/* Os concorrentes desta categoria serão indicados pela organização
                 do prêmio e, para concorrer, precisarão aceitar a indicação,
@@ -63,13 +79,19 @@ export default function Home() {
               className="bg-background p-5 rounded-lg font-bold"
               href={'/vencedores'}
             >
-              Conheça os vencedores!
+              Conheça os vencedores da edição passada
             </Link>
           </div>
         </Container>
 
         <Container>
-          <Regulamento />
+          <div className="mt-10 md:mt-20 relative" id="regulamento">
+            <Subtitle>Regulamento</Subtitle>
+            <p className="text-primary">
+              Em julho, anunciaremos a comissão julgadora que atuará na edição
+              deste ano do prêmio. Aguarde!
+            </p>
+          </div>
         </Container>
         <Container>
           <Contact />

@@ -41,7 +41,7 @@ export function Category({
             className="text-sm text-zinc-500 underline hover:text-white"
             href={link}
           >
-            {callAction ?? 'Inscreva-se'}
+            {callAction ?? 'Inscreva a sua empresa'}
           </a>
         )}
       </div>

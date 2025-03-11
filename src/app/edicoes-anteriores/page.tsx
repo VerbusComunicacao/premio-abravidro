@@ -67,7 +67,19 @@ export default function Judges() {
       <Header />
       <Container>
         <div className="mt-40 max-w-96 mb-10">
-          <Subtitle color="secondary">VENCEDORES | EDIÇÃO 2024</Subtitle>
+          <Subtitle color="secondary">Edições anteriores</Subtitle>
+          <div className="bg-yellow-500 w-min py-1 px-5 rounded-sm mb-5 mt-5">
+            <h3 className="font-bold text-primary text-lg">2024</h3>
+          </div>
+          <p>
+            No dia 12 de junho de 2024, primeiro dia da 15ª Glass South America,
+            realizou-se a cerimônia de entrega da 1ª edição do Prêmio Abravidro
+            Glass South America. Os números da edição de estreia foram
+            grandiosos: dez categorias contempladas, 105 empresas e 94 obras com
+            vidro inscritas, 31 escritórios de arquitetura mencionados e 6 mil
+            votos na fase de votação popular. Conheça os vencedores de cada
+            categoria:
+          </p>
           {judges.map((group, index) => (
             <div key={index} className="mt-10">
               <h2 className="text-xl font-bold">{group.category}</h2>
