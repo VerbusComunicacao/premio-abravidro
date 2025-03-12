@@ -21,7 +21,7 @@ export default function Menu() {
       href: 'categorias',
     },
     {
-      title: 'Sobre',
+      title: 'Saiba mais',
       submenu: [
         {
           title: 'Comissão Julgadora',

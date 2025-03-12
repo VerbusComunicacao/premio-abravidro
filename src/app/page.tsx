@@ -9,6 +9,7 @@ import { HeroSection } from '@/components/hero-section'
 import Footer from '@/components/footer'
 import Contact from '@/components/contact'
 import Link from 'next/link'
+import { Regulamento } from '@/components/regulamento'
 
 export default function Home() {
   return (
@@ -85,13 +86,7 @@ export default function Home() {
         </Container>
 
         <Container>
-          <div className="mt-10 md:mt-20 relative" id="regulamento">
-            <Subtitle>Regulamento</Subtitle>
-            <p className="text-primary">
-              Em julho, anunciaremos a comissão julgadora que atuará na edição
-              deste ano do prêmio. Aguarde!
-            </p>
-          </div>
+          <Regulamento />
         </Container>
         <Container>
           <Contact />
