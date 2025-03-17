@@ -11,7 +11,13 @@ export default function Menu() {
   const [isOpen, setIsOpen] = useState<boolean | undefined>(undefined)
   const [openSubmenu, setOpenSubmenu] = useState<string | null>(null)
 
-  const menu = [
+  type MenuType = {
+    title: string
+    href: string
+    submenu?: { title: string; href: string }[]
+  }
+
+  const menu: MenuType[] = [
     {
       title: 'Início',
       href: 'inicio',
@@ -21,21 +27,16 @@ export default function Menu() {
       href: 'categorias',
     },
     {
-      title: 'Saiba mais',
-      submenu: [
-        {
-          title: 'Comissão Julgadora',
-          href: 'jurados',
-        },
-        {
-          title: 'Regulamento',
-          href: 'regulamento',
-        },
-        {
-          title: 'Edições Anteriores',
-          href: 'edicoes-anteriores',
-        },
-      ],
+      title: 'Comissão Julgadora',
+      href: 'jurados',
+    },
+    {
+      title: 'Regulamento',
+      href: 'regulamento',
+    },
+    {
+      title: 'Edições Anteriores',
+      href: 'edicoes-anteriores',
     },
     {
       title: 'Contato',
@@ -104,19 +105,19 @@ export default function Menu() {
         </Dialog>
       </div>
       <div className="hidden lg:flex justify-end items-center w-full">
-        <nav className="text-center text-base">
-          <ul className="flex gap-6">
+        <nav className="text-center justify-center text-sm">
+          <ul className="flex gap-2">
             {menu.map((item) => (
               <li
                 key={item.title}
-                className="relative group"
+                className="relative group self-center"
                 onMouseEnter={() => setOpenSubmenu(item.title)} // Abre ao passar o mouse
                 onMouseLeave={() => setOpenSubmenu(null)} // Fecha ao tirar o mouse
               >
                 {item.submenu ? (
                   <>
                     <button
-                      className="uppercase text-white rounded-lg py-2 px-4 hover:text-yellow-500 flex items-center gap-1"
+                      className="uppercase text-white rounded-lg py-2 hover:text-yellow-500 flex items-center gap-1"
                       onClick={() => toggleSubmenu(item.title)} // Mantém o clique como fallback
                     >
                       {item.title}
@@ -143,7 +144,7 @@ export default function Menu() {
                   </>
                 ) : (
                   <button
-                    className="uppercase text-white rounded-lg py-2 px-4 hover:text-yellow-500"
+                    className="uppercase text-white rounded-lg py-2 px-2 hover:text-yellow-500"
                     onClick={() => handleClickLink(item.href)}
                   >
                     {item.title}
