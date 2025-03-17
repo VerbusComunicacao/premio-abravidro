@@ -44,7 +44,7 @@ export function HeroSection() {
         <div className="my-10">
           <Link
             className="bg-yellow-400 text-primary uppercase p-5 rounded-lg font-bold"
-            href={'/vencedores'}
+            href={'/#categorias'}
           >
             Inscreva sua empresa!{' '}
           </Link>
