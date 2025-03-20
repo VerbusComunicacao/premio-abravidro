@@ -29,12 +29,22 @@ export default function Home() {
               <Category title={'Processadores de vidro'} link="#" />
 
               <Category
-                title="Fabricantes de máquinas e equipamentos para processamento de vidro"
+                title="Fabricante de máquinas e equipamentos de pré-processamento e laminação de vidros"
+                link="#"
+              />
+
+              <Category 
+                title="Fabricantes de fornos de têmperas"
+                link="#"
+              />
+
+              <Category 
+                title="Fabricantes de rebolos e brocas"
                 link="#"
               />
 
               <Category
-                title="Fabricante de insumos para o processamento de vidros"
+                title="Fabricante de insumos para o processamento de vidros (exceto rebolos e brocas)"
                 link="#"
               />
 
@@ -44,28 +54,37 @@ export default function Home() {
               />
 
               <Category
-                title="Fabricantes de sistemas para envidraçamentos"
+                title="Fabricantes de sistemas de guarda-corpos de vidro"
                 link="#"
               />
 
               <Category
-                title="Fabricante de selantes, gaxetas e adesivos (materiais para fixação e vedação)"
+                title="Fabricantes de sistemas de envidraçamento de sacadas"
                 link="#"
               />
 
-              <Category title={'Vidraçaria'} link="#" />
+              <Category
+                title="Fabricante de kits de boxes de vidro para banheiro"
+                link="#"
+              />
+
+              <Category 
+              title="Fabricantes de sistemas de portas de vidro"
+              link="#" 
+              />
+
+              <Category 
+              title="Desenvolvedores de softwares para o mercado vidreiro"
+              link="#" 
+              />
+
+              <Category 
+              title="Vidraçarias"
+              link="#" 
+              />
 
               <Category
-                title={'Projetos e obras que empregam vidros'}
-                callAction="Inscreva ou indique"
-                link="#"
-              >
-                {/* Os concorrentes desta categoria serão indicados pela organização
-                do prêmio e, para concorrer, precisarão aceitar a indicação,
-                enviando fotos e documentos que suportem a indicação. */}
-              </Category>
-              <Category
-                title={'Arquiteto especificador de obras com vidro'}
+                title='Projetos que empregam vidros'
                 callAction="Inscreva ou indique"
                 link="#"
               >
