@@ -33,15 +33,9 @@ export default function Home() {
                 link="#"
               />
 
-              <Category 
-                title="Fabricantes de fornos de têmperas"
-                link="#"
-              />
+              <Category title="Fabricantes de fornos de têmperas" link="#" />
 
-              <Category 
-                title="Fabricantes de rebolos e brocas"
-                link="#"
-              />
+              <Category title="Fabricantes de rebolos e brocas" link="#" />
 
               <Category
                 title="Fabricante de insumos para o processamento de vidros (exceto rebolos e brocas)"
@@ -68,23 +62,20 @@ export default function Home() {
                 link="#"
               />
 
-              <Category 
-              title="Fabricantes de sistemas de portas de vidro"
-              link="#" 
-              />
-
-              <Category 
-              title="Desenvolvedores de softwares para o mercado vidreiro"
-              link="#" 
-              />
-
-              <Category 
-              title="Vidraçarias"
-              link="#" 
+              <Category
+                title="Fabricantes de sistemas de portas de vidro"
+                link="#"
               />
 
               <Category
-                title='Projetos que empregam vidros'
+                title="Desenvolvedores de softwares para o mercado vidreiro"
+                link="#"
+              />
+
+              <Category title="Vidraçarias" link="#" />
+
+              <Category
+                title="Projetos que empregam vidros"
                 callAction="Inscreva ou indique"
                 link="#"
               >
