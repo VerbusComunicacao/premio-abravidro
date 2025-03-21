@@ -36,12 +36,12 @@ export default function Home() {
 
               <Category
                 title="Fabricante de máquinas e equipamentos de pré-processamento e laminação de vidros"
-                link="https://docs.google.com/forms/d/e/1FAIpQLSfqkq_cYapRfsME3MWMlrUYIpCs_a6j38nmuMnSd-zdX4Cu1A/viewform?usp=headerhttps://docs.google.com/forms/d/e/1FAIpQLSeDKyJQNwB5pHizIqGmy4w0hMmGGMAo5LZmQD7eb_sydsM5Mg/viewform?usp=header"
+                link="https://docs.google.com/forms/d/e/1FAIpQLSeDKyJQNwB5pHizIqGmy4w0hMmGGMAo5LZmQD7eb_sydsM5Mg/viewform?usp=sharing"
               />
 
               <Category
                 title="Fabricantes de fornos de têmperas"
-                link="https://docs.google.com/forms/d/e/1FAIpQLSeDKyJQNwB5pHizIqGmy4w0hMmGGMAo5LZmQD7eb_sydsM5Mg/viewform?usp=headerhttps://docs.google.com/forms/d/e/1FAIpQLSfMjDYhdLBbVTkOONJXc7K4QCFBU5DReWoxV1kcjtKWnkWELg/viewform?usp=header"
+                link="https://docs.google.com/forms/d/e/1FAIpQLSfMjDYhdLBbVTkOONJXc7K4QCFBU5DReWoxV1kcjtKWnkWELg/viewform?usp=sharing"
               />
 
               <Category
