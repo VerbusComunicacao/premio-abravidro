@@ -21,8 +21,8 @@ export function HeroSection() {
       </Link> */}
       <div className="max-w-md mt-12 [&>p]:pt-5">
         <Subtitle color="secondary">
-          O prêmio que reconhece empresas de todos os elos do setor está de
-          volta em 2ª edição!
+          O prêmio que reconhece empresas de todos os elos do setor está ainda
+          mais completo, com novas categorias!
           <br className="hidden md:inline" />
         </Subtitle>
         <ParagraphAnimated>
@@ -33,8 +33,8 @@ export function HeroSection() {
           America deste ano.
         </ParagraphAnimated>
         <ParagraphAnimated>
-          Teremos xx categorias contempladas e as empresas que desejam concorrer
-          devem fazer a inscrição até 16 de maio.
+          Temos agora <b>14 categorias</b>, diversas delas novas, e as empresas
+          que desejam concorrer devem fazer a <b>inscrição até 16 de maio.</b>
         </ParagraphAnimated>
         <ParagraphAnimated>
           Não deixe para a última hora! Inscreva-se e dê visibilidade à sua
