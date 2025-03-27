@@ -25,12 +25,12 @@ export default function Home() {
             <Subtitle>Categorias</Subtitle>
             <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-3 mt-5 content-start">
               <Category
-                title={'Fabricantes de vidro plano'}
+                title={'Fabricante de vidro plano'}
                 link="https://docs.google.com/forms/d/e/1FAIpQLSelDt1rNJBTrWGK1gKazI5Hm5-K2PvZ5nXUy-28AuGZVGacqA/viewform?usp=header"
               />
 
               <Category
-                title={'Processadores de vidro'}
+                title={'Processador de vidro'}
                 link="https://docs.google.com/forms/d/e/1FAIpQLSfqkq_cYapRfsME3MWMlrUYIpCs_a6j38nmuMnSd-zdX4Cu1A/viewform?usp=header"
               />
 
@@ -40,12 +40,12 @@ export default function Home() {
               />
 
               <Category
-                title="Fabricantes de fornos de têmperas"
+                title="Fabricante de fornos de têmpera"
                 link="https://docs.google.com/forms/d/e/1FAIpQLSfMjDYhdLBbVTkOONJXc7K4QCFBU5DReWoxV1kcjtKWnkWELg/viewform?usp=sharing"
               />
 
               <Category
-                title="Fabricantes de rebolos e brocas"
+                title="Fabricante de rebolos e brocas"
                 link="https://docs.google.com/forms/d/e/1FAIpQLSfRIwu0RR42xmMOS18CJP_mJIlIF1U2V9n2SlVs5GxdhKwkNw/viewform?usp=header"
               />
 
@@ -60,12 +60,12 @@ export default function Home() {
               />
 
               <Category
-                title="Fabricantes de sistemas de guarda-corpos de vidro"
+                title="Fabricante de sistemas de guarda-corpos de vidro"
                 link="https://docs.google.com/forms/d/e/1FAIpQLSc7tLAwrRmemlI93LaTCYZvuu4ayb3fpeKzAaNXzy0S6SGJMQ/viewform?usp=header"
               />
 
               <Category
-                title="Fabricantes de sistemas de envidraçamento de sacadas"
+                title="Fabricante de sistemas de envidraçamento de sacadas"
                 link="https://docs.google.com/forms/d/e/1FAIpQLSeJTEmhwLFL0lmQOT7wOLqvMrAeW5SKXomH91rht1G9yuTKtQ/viewform?usp=header"
               />
 
@@ -75,23 +75,23 @@ export default function Home() {
               />
 
               <Category
-                title="Fabricantes de sistemas de portas de vidro"
+                title="Fabricante de sistemas de portas de vidro"
                 link="https://docs.google.com/forms/d/e/1FAIpQLScohI2jWAzre4sXuaB5Q6g7-OXw-8CkNZcC5NKpBMAAMiavAA/viewform?usp=header"
               />
 
               <Category
-                title="Desenvolvedores de softwares para o mercado vidreiro"
+                title="Desenvolvedor de softwares para o mercado vidreiro"
                 link="https://docs.google.com/forms/d/e/1FAIpQLSeiy7you-JXUGGlFNeszVDbM75QQglUuEqamDo5E181u0mtlg/viewform?usp=header"
               />
 
               <Category
-                title="Vidraçarias"
+                title="Vidraçaria"
                 link="https://docs.google.com/forms/d/e/1FAIpQLSekF3X0aVgTNXP6wpKrx8nfDq0wKlcuFQbDeCNih1y89GHzhg/viewform?usp=header"
               />
 
               <Category
-                title="Projetos que empregam vidros"
-                callAction="Inscreva ou indique"
+                title="Projeto que emprega vidros"
+                callAction="Inscreva um projeto"
                 link="https://docs.google.com/forms/d/e/1FAIpQLSdRIm571Ol9CrSb73_z5u8zcNaXmBGjzu7h763OlO0Q43U_Kw/viewform?usp=header"
               >
                 {/* Os concorrentes desta categoria serão indicados pela organização
