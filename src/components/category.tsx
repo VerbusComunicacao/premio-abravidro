@@ -17,7 +17,7 @@ export function Category({
 }) {
   return (
     <motion.div
-      className="bg-white shadow-sm rounded-md p-3 py-4 flex flex-col gap-3 justify-between hover:bg-yellow-400 transition-colors"
+      className="bg-white shadow-sm rounded-md lg:min-h-52 p-3 py-4 flex flex-col gap-3 justify-between hover:bg-yellow-400 transition-colors"
       initial={{
         opacity: 0,
         translateY: 50,
