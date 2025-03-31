@@ -6,66 +6,67 @@ import Link from 'next/link'
 
 export function Header() {
   return (
-    <div className="flex top-0 justify-start fixed bg-background h-20 md:h-28 w-screen items-end z-10">
-      <div className="md:px-32 lg:px-40 hidden md:flex md:justify-between md:items-center h-16 mb-5 w-full">
-        <div className="flex gap-3">
-          <Link
-            className="flex justify-center items-center"
-            href="https://abravidro.org.br/"
-          >
-            <Image
-              src={logoAbravidro}
-              alt="Logo Abravidro"
-              width={150}
-              style={{
-                objectFit: 'cover',
-              }}
-              className="w-72 h-16"
-            />
+    <div className="fixed top-0 left-0 w-full bg-background z-10">
+      {/* Desktop/Tablet View */}
+      <div className="hidden md:flex md:justify-between md:items-center lg:pr-10 lg:pl-40 md:px-32 h-28 w-full">
+        <div className="flex gap-6 items-center flex-shrink-0">
+          <Link href="https://abravidro.org.br/" className="flex-shrink-0">
+            <div className="w-[150px] h-[64px] relative flex-shrink-0">
+              <Image
+                src={logoAbravidro}
+                alt="Logo Abravidro"
+                fill
+                className="object-contain"
+                sizes="150px"
+              />
+            </div>
           </Link>
-          <Link
-            className="flex justify-center items-center"
-            href="https://home.glassexpo.com.br/"
-          >
-            <Image
-              src={logoGlass}
-              alt="Logo Abravidro"
-              width={290}
-              style={{
-                objectFit: 'cover',
-              }}
-              className="ml-5 w-80 h-28"
-            />
-          </Link>
-        </div>
-        <Menu />
-      </div>
-      <div className="px-8 flex justify-between items-center md:hidden w-full h-10 mb-5">
-        <div className="flex justify-center items-center">
-          <Link href="https://abravidro.org.br/">
-            <Image
-              src={logoAbravidro}
-              alt="Logo Abravidro"
-              width={140}
-              style={{
-                objectFit: 'cover',
-              }}
-            />
-          </Link>
-          <div className="ml-2">
-            <Link href="https://home.glassexpo.com.br/">
+          <Link href="https://home.glassexpo.com.br/" className="flex-shrink-0">
+            <div className="w-[180px] h-[64px] relative flex-shrink-0">
               <Image
                 src={logoGlass}
-                alt="Logo Abravidro"
-                width={180}
-                style={{
-                  objectFit: 'cover',
-                }}
+                alt="Logo Glass"
+                fill
+                className="object-contain"
+                sizes="200px"
               />
-            </Link>
-          </div>
+            </div>
+          </Link>
         </div>
-        <Menu />
+        <div className="flex-shrink overflow-x-auto">
+          <Menu />
+        </div>
+      </div>
+
+      {/* Mobile View */}
+      <div className="flex md:hidden justify-between items-center px-10 h-16 w-full">
+        <div className="flex items-center gap-2 flex-shrink-0">
+          <Link href="https://abravidro.org.br/" className="flex-shrink-0">
+            <div className="w-[100px] h-[43px] relative flex-shrink-0">
+              <Image
+                src={logoAbravidro}
+                alt="Logo Abravidro"
+                fill
+                className="object-contain"
+                sizes="100px"
+              />
+            </div>
+          </Link>
+          <Link href="https://home.glassexpo.com.br/" className="flex-shrink-0">
+            <div className="w-[140px] h-[60px] relative flex-shrink-0">
+              <Image
+                src={logoGlass}
+                alt="Logo Glass"
+                fill
+                className="object-contain"
+                sizes="140px"
+              />
+            </div>
+          </Link>
+        </div>
+        <div className="flex-shrink-0">
+          <Menu />
+        </div>
       </div>
     </div>
   )

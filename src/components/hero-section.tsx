@@ -4,6 +4,7 @@ import { motion } from 'framer-motion'
 import Logo from './logo'
 import { Subtitle } from './subtitle'
 import ParagraphAnimated from './paragraph-animated'
+import Link from 'next/link'
 // import Link from 'next/link'
 
 export function HeroSection() {
@@ -20,24 +21,34 @@ export function HeroSection() {
       </Link> */}
       <div className="max-w-md mt-12 [&>p]:pt-5">
         <Subtitle color="secondary">
-          Celebrando o trabalho
-          <br className="hidden md:inline" /> do setor
+          O prêmio que reconhece empresas de todos os elos do setor está ainda
+          mais completo, com novas categorias!
+          <br className="hidden md:inline" />
         </Subtitle>
         <ParagraphAnimated>
-          A Abravidro e a NürnbergMesse Brasil criaram o Prêmio Abravidro Glass
-          South America, iniciativa com o objetivo de reconhecer as marcas que
-          atuam nos diversos elos da cadeia vidreira.
+          Criado em 2024 pela Abravidro e a NürnbergMesse Brasil para homenagear
+          marcas que atuam nos diversos elos da cadeia vidreira, o Prêmio
+          Abravidro Glass South America está de volta em 2025, com cerimônia de
+          entrega agendada para 3 de setembro, primeiro dia da Glass South
+          America deste ano.
         </ParagraphAnimated>
         <ParagraphAnimated>
-          No dia 12 de junho de 2024, primeiro dia da 15ª Glass South America,
-          realizou-se a cerimônia de entrega da 1ª edição do prêmio. Os números
-          da edição de estreia foram grandiosos: dez categorias contempladas,
-          105 empresas e 94 obras com vidro inscritas, 31 escritórios de
-          arquitetura mencionados e 6 mil votos na fase de votação popular.
+          Temos agora <b>14 categorias</b>, diversas delas novas, e as empresas
+          que desejam concorrer devem fazer a <b>inscrição até 16 de maio.</b>
         </ParagraphAnimated>
         <ParagraphAnimated>
-          Aguarde! Em breve, divulgaremos informações sobre a próxima edição!
+          Não deixe para a última hora! Inscreva-se e dê visibilidade à sua
+          marca no prêmio organizado pela maior entidade vidreira do Brasil e
+          pela organizadora da principal feira vidreira da América Latina.{' '}
         </ParagraphAnimated>
+        <div className="my-10">
+          <Link
+            className="bg-yellow-400 text-primary uppercase p-5 rounded-lg font-bold"
+            href={'/#categorias'}
+          >
+            Inscreva sua empresa!{' '}
+          </Link>
+        </div>
       </div>
     </>
   )

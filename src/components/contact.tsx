@@ -4,7 +4,7 @@ import { MdEmail } from 'react-icons/md'
 
 export default function Contact() {
   return (
-    <section className="mt-10 lg:mt-20" id="contato">
+    <section className="mt-10 lg:mt-14" id="contato">
       <Subtitle>Contato</Subtitle>
       <p className="text-zinc-700 text-sm lg:text-lg lg:mb-2">
         Em caso de dúvidas, entre em contato com a organização:
