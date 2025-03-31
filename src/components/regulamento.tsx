@@ -365,25 +365,33 @@ export function Regulamento() {
           <div
             dangerouslySetInnerHTML={{
               __html: `
-          <p><span style="font-size:13pt;font-family:Arial,sans-serif;">A premia&ccedil;&atilde;o ser&aacute; realizada em sete etapas:&nbsp;</span></p>
+          <p>A premia&ccedil;&atilde;o ser&aacute; realizada em sete etapas:</p>
 <p><br></p>
-<p><span style="font-size:13pt;font-family:Arial,sans-serif;">5.1. ETAPA 1 &ndash; CADASTRO</span></p>
-<p><span style="font-size:13pt;font-family:Arial,sans-serif;">Cadastro de inscri&ccedil;&atilde;o do interessado (pessoa natural, jur&iacute;dica) em formul&aacute;rio eletr&ocirc;nico, sendo necess&aacute;rio informar o respons&aacute;vel para contatos e para recebimento do pr&ecirc;mio. Essa etapa ser&aacute; realizada at&eacute; o dia 16 de maio.</span></p>
+
+<p>5.1. ETAPA 1 &ndash; CADASTRO 
 <p><br></p>
-<p><span style="font-size:13pt;font-family:Arial,sans-serif;">5.2. ETAPA 2 &ndash; VALIDA&Ccedil;&Atilde;O</span></p>
-<p><span style="font-size:13pt;font-family:Arial,sans-serif;">A valida&ccedil;&atilde;o do(a) inscrito(a) ser&aacute; realizada mediante an&aacute;lise do correto preenchimento do formul&aacute;rio eletr&ocirc;nico, bem como an&aacute;lise do correto envio da documenta&ccedil;&atilde;o pertinente. Essa etapa ocorrer&aacute; de forma concomitante ao prazo de cadastro das empresas, sendo finalizada no dia 16 de maio.</span></p>
+Cadastro de inscri&ccedil;&atilde;o do interessado (pessoa natural, jur&iacute;dica) em formul&aacute;rio eletr&ocirc;nico, sendo necess&aacute;rio informar o respons&aacute;vel para contatos e para recebimento do pr&ecirc;mio. Essa etapa ser&aacute; realizada at&eacute; o dia 16 de maio.</p>
 <p><br></p>
-<p><span style="font-size:13pt;font-family:Arial,sans-serif;">5.4. ETAPA 4 &ndash; DIVULGA&Ccedil;&Atilde;O DOS INSCRITOS</span></p>
-<p><span style="font-size:13pt;font-family:Arial,sans-serif;">De 2 a 13 de junho ser&aacute; feita a divulga&ccedil;&atilde;o dos participantes (pessoa natural, jur&iacute;dica) regularmente inscritos (e aptos) a serem votados.&nbsp;</span></p>
+
+<p>5.2. ETAPA 2 &ndash; VALIDA&Ccedil;&Atilde;O 
 <p><br></p>
-<p><span style="font-size:13pt;font-family:Arial,sans-serif;">5.5. ETAPA 5 &ndash; PER&Iacute;ODO DA VOTA&Ccedil;&Atilde;O POPULAR&nbsp;</span></p>
-<p><span style="font-size:13pt;font-family:Arial,sans-serif;">O prazo da vota&ccedil;&atilde;o pelo p&uacute;blico ser&aacute; das 00h00 de 16 de junho de 2025 at&eacute; as 23h59 do dia 18 de julho de 2025. O participante mais votado de cada categoria pelo j&uacute;ri popular integrar&aacute; a sele&ccedil;&atilde;o de finalistas e computar&aacute; um ponto adicional na vota&ccedil;&atilde;o da comiss&atilde;o julgadora.&nbsp;</span></p>
+A valida&ccedil;&atilde;o do(a) inscrito(a) ser&aacute; realizada mediante an&aacute;lise do correto preenchimento do formul&aacute;rio eletr&ocirc;nico, bem como an&aacute;lise do correto envio da documenta&ccedil;&atilde;o pertinente. Essa etapa ocorrer&aacute; de forma concomitante ao prazo de cadastro das empresas, sendo finalizada no dia 16 de maio.</p>
 <p><br></p>
-<p><span style="font-size:13pt;font-family:Arial,sans-serif;">5.6. ETAPA 6 &ndash; VOTA&Ccedil;&Atilde;O DA COMISS&Atilde;O JULGADORA</span></p>
-<p><span style="font-size:13pt;font-family:Arial,sans-serif;">De 28 de julho a 12 de agosto ocorrer&aacute; a vota&ccedil;&atilde;o da comiss&atilde;o julgadora, quando at&eacute; cinco finalistas (quatro selecionados por somarem mais pontos nos crit&eacute;rios de avalia&ccedil;&atilde;o e um selecionado por ter vencido a vota&ccedil;&atilde;o popular) ser&atilde;o avaliados individualmente pelos membros do j&uacute;ri, recebendo notas de 1 a 10. Caso uma empresa vencedora da vota&ccedil;&atilde;o popular esteja entre as quatro que somaram mais pontos nos crit&eacute;rios de avalia&ccedil;&atilde;o de sua categoria, a quinta colocada em n&uacute;mero de pontos estar&aacute; classificada para a avalia&ccedil;&atilde;o da comiss&atilde;o julgadora.</span></p>
+<p>5.3. ETAPA 3 &ndash; DIVULGA&Ccedil;&Atilde;O DOS INSCRITOS
 <p><br></p>
-<p><span style="font-size:13pt;font-family:Arial,sans-serif;">5.7. ETAPA 7 &ndash; VENCEDORES&nbsp;</span></p>
-<p><span style="font-size:13pt;font-family:Arial,sans-serif;">O finalista de cada uma das catorze categorias com maior pontua&ccedil;&atilde;o ser&aacute; considerado vencedor, bem como ser&aacute; premiado em cerim&ocirc;nia. A cerim&ocirc;nia ser&aacute; realizada pela Abravidro e N&uuml;rnbergMesse Brasil durante a Glass South America, em 3 de setembro de 2025.&nbsp;</span></p>
+De 2 a 13 de junho ser&aacute; feita a divulga&ccedil;&atilde;o dos participantes (pessoa natural, jur&iacute;dica) regularmente inscritos (e aptos) a serem votados.</p>
+<p><br></p>
+<p>5.4. ETAPA 4 &ndash; PER&Iacute;ODO DA VOTA&Ccedil;&Atilde;O POPULAR  
+<p><br></p>
+O prazo da vota&ccedil;&atilde;o pelo p&uacute;blico ser&aacute; das 00h00 de 16 de junho de 2025 at&eacute; as 23h59 do dia 18 de julho de 2025. O participante mais votado de cada categoria pelo j&uacute;ri popular integrar&aacute; a sele&ccedil;&atilde;o de finalistas e computar&aacute; um ponto adicional na vota&ccedil;&atilde;o da comiss&atilde;o julgadora.</p>
+<p><br></p>
+<p>5.5. ETAPA 5 &ndash; VOTA&Ccedil;&Atilde;O DA COMISS&Atilde;O JULGADORA 
+<p><br></p>
+De 28 de julho a 12 de agosto ocorrer&aacute; a vota&ccedil;&atilde;o da comiss&atilde;o julgadora, quando at&eacute; cinco finalistas (quatro selecionados por somarem mais pontos nos crit&eacute;rios de avalia&ccedil;&atilde;o e um selecionado por ter vencido a vota&ccedil;&atilde;o popular) ser&atilde;o avaliados individualmente pelos membros do j&uacute;ri, recebendo notas de 1 a 10. Caso uma empresa vencedora da vota&ccedil;&atilde;o popular esteja entre as quatro que somaram mais pontos nos crit&eacute;rios de avalia&ccedil;&atilde;o de sua categoria, a quinta colocada em n&uacute;mero de pontos estar&aacute; classificada para a avalia&ccedil;&atilde;o da comiss&atilde;o julgadora.</p>
+<p><br></p>
+<p>5.6. ETAPA 6 &ndash; VENCEDORES  
+<p><br></p>
+O finalista de cada uma das catorze categorias com maior pontua&ccedil;&atilde;o ser&aacute; considerado vencedor, bem como ser&aacute; premiado em cerim&ocirc;nia. A cerim&ocirc;nia ser&aacute; realizada pela Abravidro e N&uuml;rnbergMesse Brasil durante a Glass South America, em 3 de setembro de 2025. </p>
             `,
             }}
           />
@@ -392,17 +400,20 @@ export function Regulamento() {
         <CardRegulamentItem title="6. Validação e seleção dos vencedores">
           <div
             dangerouslySetInnerHTML={{
-              __html: `<p><span style="font-size:13pt;font-family:Arial,sans-serif;">6.1. As organizadoras far&atilde;o a valida&ccedil;&atilde;o dos inscritos (pessoas naturais, jur&iacute;dicas, conforme o caso) que atenderem os crit&eacute;rios estabelecidos neste regulamento (</span><em><span style="font-size:13pt;font-family:Arial,sans-serif;">item 3</span></em><span style="font-size:13pt;font-family:Arial,sans-serif;">).&nbsp;</span></p>
+              __html: `
+              6.1. As organizadoras farão a validação dos inscritos (pessoas naturais, jurídicas, conforme o caso) que atenderem os critérios estabelecidos neste regulamento (item 3). 
 <p><br></p>
-<p><span style="font-size:13pt;font-family:Arial,sans-serif;">6.2.1. &nbsp;Acaso haja um &uacute;nico inscrito para dada categoria, ela ser&aacute; desconsiderada, n&atilde;o havendo, por conseguinte, premia&ccedil;&atilde;o (ou o que valha).</span></p>
+6.2.  Acaso haja um único inscrito para dada categoria, ela será desconsiderada, não havendo, por conseguinte, premiação (ou o que valha).
 <p><br></p>
-<p><span style="font-size:13pt;font-family:Arial,sans-serif;">6.3. Projetos j&aacute; premiados na edi&ccedil;&atilde;o anterior do Pr&ecirc;mio Abravidro Glass South America n&atilde;o podem concorrer novamente na Categoria 14: Projeto que emprega vidros (residencial, comercial ou multiuso).</span></p>
+6.3 Projetos já premiados na edição anterior do Prêmio Abravidro Glass South America não podem concorrer novamente na Categoria 14: Projeto que emprega vidros (residencial, comercial ou multiuso).
 <p><br></p>
-<p><span style="font-size:13pt;font-family:Arial,sans-serif;">6.2. Cada categoria ter&aacute; um &uacute;nico vencedor, exceto para as categorias 2 e 13 do&nbsp;</span><em><span style="font-size:13pt;font-family:Arial,sans-serif;">item 3</span></em><span style="font-size:13pt;font-family:Arial,sans-serif;">, que ter&atilde;o um vencedor por regi&atilde;o. Em caso de empate, caber&aacute; &agrave;s organizadoras definir o premiado.</span></p>
+6.4 Cada categoria terá um único vencedor, exceto para as categorias 2 e 13 do item 3, que terão um vencedor por região. Em caso de empate, caberá às organizadoras definir o premiado.
 <p><br></p>
-<p><span style="font-size:13pt;font-family:Arial,sans-serif;">6.4. A decis&atilde;o das comiss&otilde;es (organizadora, julgadora etc.) da presente premia&ccedil;&atilde;o ser&aacute; soberana e irrevog&aacute;vel.&nbsp;</span></p>
+6.5 A decisão das comissões (organizadora, julgadora etc.) da presente premiação será soberana e irrevogável. 
 <p><br></p>
-<p><span style="font-size:13pt;font-family:Arial,sans-serif;">6.5. Ao participar (e aderir) &agrave; presente premia&ccedil;&atilde;o, o interessado/participante anui (e concorda) com todos os seus respectivos itens e/ou termos, renunciando a qualquer eventual futuro questionamento, em qualquer esfera ou inst&acirc;ncia que for.&nbsp;</span></p>`,
+6.6 Ao participar (e aderir) à presente premiação, o interessado/participante anui (e concorda) com todos os seus respectivos itens e/ou termos, renunciando a qualquer eventual futuro questionamento, em qualquer esfera ou instância que for. 
+
+              `,
             }}
           />
         </CardRegulamentItem>
