@@ -368,18 +368,30 @@ export function Regulamento() {
           <p>A premia&ccedil;&atilde;o ser&aacute; realizada em sete etapas:</p>
 <p><br></p>
 
-<p>5.1. ETAPA 1 &ndash; CADASTRO Cadastro de inscri&ccedil;&atilde;o do interessado (pessoa natural, jur&iacute;dica) em formul&aacute;rio eletr&ocirc;nico, sendo necess&aacute;rio informar o respons&aacute;vel para contatos e para recebimento do pr&ecirc;mio. Essa etapa ser&aacute; realizada at&eacute; o dia 16 de maio.</p>
+<p>5.1. ETAPA 1 &ndash; CADASTRO 
+<p><br></p>
+Cadastro de inscri&ccedil;&atilde;o do interessado (pessoa natural, jur&iacute;dica) em formul&aacute;rio eletr&ocirc;nico, sendo necess&aacute;rio informar o respons&aacute;vel para contatos e para recebimento do pr&ecirc;mio. Essa etapa ser&aacute; realizada at&eacute; o dia 16 de maio.</p>
 <p><br></p>
 
-<p>5.2. ETAPA 2 &ndash; VALIDA&Ccedil;&Atilde;O A valida&ccedil;&atilde;o do(a) inscrito(a) ser&aacute; realizada mediante an&aacute;lise do correto preenchimento do formul&aacute;rio eletr&ocirc;nico, bem como an&aacute;lise do correto envio da documenta&ccedil;&atilde;o pertinente. Essa etapa ocorrer&aacute; de forma concomitante ao prazo de cadastro das empresas, sendo finalizada no dia 16 de maio.</p>
+<p>5.2. ETAPA 2 &ndash; VALIDA&Ccedil;&Atilde;O 
 <p><br></p>
-<p>5.3. ETAPA 4 &ndash; DIVULGA&Ccedil;&Atilde;O DOS INSCRITOS De 2 a 13 de junho ser&aacute; feita a divulga&ccedil;&atilde;o dos participantes (pessoa natural, jur&iacute;dica) regularmente inscritos (e aptos) a serem votados.</p>
+A valida&ccedil;&atilde;o do(a) inscrito(a) ser&aacute; realizada mediante an&aacute;lise do correto preenchimento do formul&aacute;rio eletr&ocirc;nico, bem como an&aacute;lise do correto envio da documenta&ccedil;&atilde;o pertinente. Essa etapa ocorrer&aacute; de forma concomitante ao prazo de cadastro das empresas, sendo finalizada no dia 16 de maio.</p>
 <p><br></p>
-<p>5.4. ETAPA 5 &ndash; PER&Iacute;ODO DA VOTA&Ccedil;&Atilde;O POPULAR  O prazo da vota&ccedil;&atilde;o pelo p&uacute;blico ser&aacute; das 00h00 de 16 de junho de 2025 at&eacute; as 23h59 do dia 18 de julho de 2025. O participante mais votado de cada categoria pelo j&uacute;ri popular integrar&aacute; a sele&ccedil;&atilde;o de finalistas e computar&aacute; um ponto adicional na vota&ccedil;&atilde;o da comiss&atilde;o julgadora.</p>
+<p>5.3. ETAPA 3 &ndash; DIVULGA&Ccedil;&Atilde;O DOS INSCRITOS
 <p><br></p>
-<p>5.5. ETAPA 6 &ndash; VOTA&Ccedil;&Atilde;O DA COMISS&Atilde;O JULGADORA De 28 de julho a 12 de agosto ocorrer&aacute; a vota&ccedil;&atilde;o da comiss&atilde;o julgadora, quando at&eacute; cinco finalistas (quatro selecionados por somarem mais pontos nos crit&eacute;rios de avalia&ccedil;&atilde;o e um selecionado por ter vencido a vota&ccedil;&atilde;o popular) ser&atilde;o avaliados individualmente pelos membros do j&uacute;ri, recebendo notas de 1 a 10. Caso uma empresa vencedora da vota&ccedil;&atilde;o popular esteja entre as quatro que somaram mais pontos nos crit&eacute;rios de avalia&ccedil;&atilde;o de sua categoria, a quinta colocada em n&uacute;mero de pontos estar&aacute; classificada para a avalia&ccedil;&atilde;o da comiss&atilde;o julgadora.</p>
+De 2 a 13 de junho ser&aacute; feita a divulga&ccedil;&atilde;o dos participantes (pessoa natural, jur&iacute;dica) regularmente inscritos (e aptos) a serem votados.</p>
 <p><br></p>
-<p>5.6. ETAPA 7 &ndash; VENCEDORES  O finalista de cada uma das catorze categorias com maior pontua&ccedil;&atilde;o ser&aacute; considerado vencedor, bem como ser&aacute; premiado em cerim&ocirc;nia. A cerim&ocirc;nia ser&aacute; realizada pela Abravidro e N&uuml;rnbergMesse Brasil durante a Glass South America, em 3 de setembro de 2025. </p>
+<p>5.4. ETAPA 4 &ndash; PER&Iacute;ODO DA VOTA&Ccedil;&Atilde;O POPULAR  
+<p><br></p>
+O prazo da vota&ccedil;&atilde;o pelo p&uacute;blico ser&aacute; das 00h00 de 16 de junho de 2025 at&eacute; as 23h59 do dia 18 de julho de 2025. O participante mais votado de cada categoria pelo j&uacute;ri popular integrar&aacute; a sele&ccedil;&atilde;o de finalistas e computar&aacute; um ponto adicional na vota&ccedil;&atilde;o da comiss&atilde;o julgadora.</p>
+<p><br></p>
+<p>5.5. ETAPA 5 &ndash; VOTA&Ccedil;&Atilde;O DA COMISS&Atilde;O JULGADORA 
+<p><br></p>
+De 28 de julho a 12 de agosto ocorrer&aacute; a vota&ccedil;&atilde;o da comiss&atilde;o julgadora, quando at&eacute; cinco finalistas (quatro selecionados por somarem mais pontos nos crit&eacute;rios de avalia&ccedil;&atilde;o e um selecionado por ter vencido a vota&ccedil;&atilde;o popular) ser&atilde;o avaliados individualmente pelos membros do j&uacute;ri, recebendo notas de 1 a 10. Caso uma empresa vencedora da vota&ccedil;&atilde;o popular esteja entre as quatro que somaram mais pontos nos crit&eacute;rios de avalia&ccedil;&atilde;o de sua categoria, a quinta colocada em n&uacute;mero de pontos estar&aacute; classificada para a avalia&ccedil;&atilde;o da comiss&atilde;o julgadora.</p>
+<p><br></p>
+<p>5.6. ETAPA 6 &ndash; VENCEDORES  
+<p><br></p>
+O finalista de cada uma das catorze categorias com maior pontua&ccedil;&atilde;o ser&aacute; considerado vencedor, bem como ser&aacute; premiado em cerim&ocirc;nia. A cerim&ocirc;nia ser&aacute; realizada pela Abravidro e N&uuml;rnbergMesse Brasil durante a Glass South America, em 3 de setembro de 2025. </p>
             `,
             }}
           />
