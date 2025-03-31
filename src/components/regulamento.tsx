@@ -483,7 +483,7 @@ export function Regulamento() {
           download="Regulamento"
           target="_blank"
           className="flex gap-5 justify-center items-center md:hover:bg-yellow-500 lg:max-w-60 bg-background py-2 px-4 rounded-lg font-bold"
-          href="https://abravidro.org.br/wp-content/uploads/2025/03/Regulamento_premio-abravidro.pdf"
+          href="https://abravidro.org.br/wp-content/uploads/2025/03/Regulamento_PAGSA-2025.pdf"
         >
           <p className="w-36 lg:w-36"> Veja regulamento completo em PDF</p>
           <FaFilePdf size={30} />
