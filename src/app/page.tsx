@@ -100,9 +100,9 @@ export default function Home() {
               </Category>
             </div>
           </div>
-          <div className="mt-10">
+          <div className="mt-10 flex justify-center md:justify-start">
             <Link
-              className="bg-background p-5 rounded-lg font-bold"
+              className="bg-background p-5 rounded-lg font-bold block text-center w-full md:w-auto"
               href={'/vencedores'}
             >
               Conheça os vencedores da edição passada
