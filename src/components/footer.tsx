@@ -29,7 +29,7 @@ export default function Footer() {
                 alt="Logo Glass South America"
                 width={250}
                 style={{
-                  objectFit: 'cover',
+                  objectFit: 'fill',
                 }}
                 className="h-14 w-56"
               />
