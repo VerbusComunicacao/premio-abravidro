@@ -19,8 +19,7 @@ export function HeroSection() {
       </Link> */}
       <div className="max-w-md mt-12 [&>p]:pt-5">
         <Subtitle color="secondary">
-          Inscrições encerradas! Em breve, anunciaremos as empresas
-          concorrentes.
+          Inscrições encerradas! Em breve, anunciaremos as empresas concorrentes
           <br className="hidden md:inline" />
         </Subtitle>
         <ParagraphAnimated>
