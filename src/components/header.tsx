@@ -1,5 +1,5 @@
 import logoGlass from '../../public/logo-glass.png'
-import logoAbravidro from '../../public/abravidro.png'
+import logoAbravidro from '../../public/abravidro-35-anos.png'
 import Image from 'next/image'
 import Menu from './menu'
 import Link from 'next/link'
@@ -11,13 +11,13 @@ export function Header() {
       <div className="hidden md:flex md:justify-between md:items-center lg:pr-10 lg:pl-40 md:px-32 h-28 w-full">
         <div className="flex gap-6 items-center flex-shrink-0">
           <Link href="https://abravidro.org.br/" className="flex-shrink-0">
-            <div className="w-[150px] h-[64px] relative flex-shrink-0">
+            <div className="w-[180px] h-[64px] relative flex-shrink-0">
               <Image
                 src={logoAbravidro}
                 alt="Logo Abravidro"
                 fill
                 className="object-contain"
-                sizes="150px"
+                sizes="180px"
               />
             </div>
           </Link>
