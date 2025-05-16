@@ -4,8 +4,6 @@ import { motion } from 'framer-motion'
 import Logo from './logo'
 import { Subtitle } from './subtitle'
 import ParagraphAnimated from './paragraph-animated'
-import Link from 'next/link'
-// import Link from 'next/link'
 
 export function HeroSection() {
   return (
@@ -34,21 +32,22 @@ export function HeroSection() {
         </ParagraphAnimated>
         <ParagraphAnimated>
           Temos agora <b>14 categorias</b>, diversas delas novas, e as empresas
-          que desejam concorrer devem fazer a <b>inscrição até 16 de maio.</b>
+          puderam fazer suas inscrições até 16 de maio.
         </ParagraphAnimated>
         <ParagraphAnimated>
-          Não deixe para a última hora! Inscreva-se e dê visibilidade à sua
-          marca no prêmio organizado pela maior entidade vidreira do Brasil e
-          pela organizadora da principal feira vidreira da América Latina.{' '}
+          <b>No dia 16 de junho, será aberta a votação popular.</b> A empresa
+          mais votada em cada categoria ganhará um ponto a mais, que será somado
+          às notas do júri técnico. Fique atento para deixar o seu voto ou
+          divulgar sua empresa!
         </ParagraphAnimated>
-        <div className="my-10">
+        {/* <div className="my-10">
           <Link
             className="bg-yellow-400 text-primary uppercase p-5 rounded-lg font-bold"
             href={'/#categorias'}
           >
             Inscreva sua empresa!{' '}
           </Link>
-        </div>
+        </div> */}
       </div>
     </>
   )

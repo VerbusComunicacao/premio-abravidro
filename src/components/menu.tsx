@@ -23,7 +23,7 @@ export default function Menu() {
       href: 'inicio',
     },
     {
-      title: 'Inscreva-se',
+      title: 'Categorias',
       href: 'categorias',
     },
     {
