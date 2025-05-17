@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import logoEsquadria from '../../public/logo-Esquadria.png'
 import logoGlass from '../../public/logo-glass.png'
-import AbravidroImg from '../../public/abravidro.png'
+import AbravidroImg from '../../public/logo-35-anos.png'
 import NMBImg from '../../public/NMB.png'
 import Image from 'next/image'
 
@@ -13,7 +13,7 @@ export default function Footer() {
           <p className="text-xl pb-4 text-center mt-5 font-bold">Realização:</p>
           <div className="flex flex-col md:flex-row justify-center items-center gap-3 md:gap-10">
             <Link href="https://abravidro.org.br/">
-              <Image width={185} src={AbravidroImg} alt="Logo Abravidro" />
+              <Image width={230} src={AbravidroImg} alt="Logo Abravidro" />
             </Link>
             <Link href="https://nuernbergmesse-brasil.com.br/">
               <Image width={185} src={NMBImg} alt="NürnbergMesse Brasil" />
@@ -42,7 +42,7 @@ export default function Footer() {
             <Link href="https://home.esquadriashow.com.br/">
               <Image
                 src={logoEsquadria}
-                alt="Logo Abravidro"
+                alt="Logo Esquadria Show"
                 width={250}
                 style={{
                   objectFit: 'cover',
