@@ -51,7 +51,7 @@ export function HeroSection() {
         <div className="mt-10">
           <Link
             className="bg-yellow-400 text-primary uppercase p-5 rounded-lg font-bold"
-            href={'/#categorias'}
+            href={'/concorrentes'}
           >
             Conheça os concorrentes!{' '}
           </Link>
