@@ -23,8 +23,8 @@ export default function Menu() {
       href: 'inicio',
     },
     {
-      title: 'Categorias',
-      href: 'categorias',
+      title: 'Concorrentes',
+      href: 'concorrentes',
     },
     {
       title: 'Comissão Julgadora',
@@ -53,7 +53,11 @@ export default function Menu() {
       return
     }
 
-    if (id === 'jurados' || id === 'edicoes-anteriores') {
+    if (
+      id === 'jurados' ||
+      id === 'edicoes-anteriores' ||
+      id === 'concorrentes'
+    ) {
       return router.push(`/${id}`)
     }
     const element = document.getElementById(id)
