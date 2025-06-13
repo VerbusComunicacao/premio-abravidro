@@ -11,6 +11,7 @@ import { Subtitle } from '@/components/subtitle'
 import { Header } from '@/components/header'
 import Background from '@/components/background'
 import Image from 'next/image'
+import Footer from '@/components/footer'
 
 interface Projeto {
   nome: string
@@ -86,13 +87,14 @@ function Modal({
         className="w-full h-full flex items-center justify-center p-4"
         onClick={(e) => e.stopPropagation()}
       >
-        <div className="relative w-full h-full">
+        <div className="relative w-full h-full flex items-center justify-center">
           <Image
             src={foto.url}
             alt={foto.alt}
-            fill
-            className="object-contain"
-            sizes="100vw"
+            width={1200}
+            height={1200}
+            className="object-contain max-w-full max-h-full"
+            sizes="(max-width: 1200px) 100vw, 1200px"
             priority
           />
         </div>
@@ -213,7 +215,7 @@ const projetos: Projeto[] = [
     nome: 'Lago Center Business',
     cidade: 'Recife',
     estado: 'PE',
-    quantidadeFotos: 6,
+    quantidadeFotos: 5,
   },
   { nome: 'Luna Nova', cidade: 'São Paulo', estado: 'SP', quantidadeFotos: 9 },
   {
@@ -318,6 +320,8 @@ export default function Galeria() {
             Veja, abaixo, a relação com fotos dos projetos concorrentes e vote
             no seu preferido{' '}
             <a
+              target="_blank"
+              rel="noopener noreferrer"
               className="underline"
               href="https://pt.surveymonkey.com/r/NV7K8J9"
             >
@@ -335,6 +339,15 @@ export default function Galeria() {
                 }
               />
             ))}
+          </div>
+          <div className="my-8 text-center">
+            <a
+              target="_blank"
+              className=" text-lg inline-block bg-background text-white px-6 py-3 rounded-lg hover:bg-primary/90 transition-colors"
+              href="https://pt.surveymonkey.com/r/NV7K8J9"
+            >
+              Vote no seu projeto preferido clicando aqui
+            </a>
           </div>
         </div>
       </Container>
@@ -354,6 +367,8 @@ export default function Galeria() {
         }
         hasPrev={currentProject ? currentPhotoIndex > 0 : false}
       />
+      <Footer />
+      <div className="my-10" />
     </main>
   )
 }
