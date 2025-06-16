@@ -2,6 +2,7 @@ import { Metadata } from 'next'
 import Background from '@/components/background'
 import { Header } from '@/components/header'
 import Footer from '@/components/footer'
+import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'Concorrentes | Prêmio Abravidro Glass 2025',
@@ -372,13 +373,19 @@ export default function Concorrentes() {
               <h2 className="text-xl text-primary font-semibold mb-4">
                 PROJETO QUE EMPREGA VIDROS
               </h2>
-              <ul className="list-disc list-inside space-y-1">
+              <ul className="list-disc list-inside space-y-1 mb-5">
                 {projetos.map((projeto) => (
                   <li key={projeto.nome} className="text-gray-700">
                     {projeto.nome} - {projeto.local}
                   </li>
                 ))}
               </ul>
+              <Link
+                href="/galeria"
+                className="bg-background p-3 rounded-md text-white text-center"
+              >
+                Veja fotos e mais informações sobre os concorrentes
+              </Link>
             </section>
           </div>
         </div>
