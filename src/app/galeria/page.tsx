@@ -314,7 +314,7 @@ export default function Galeria() {
       <Background />
       <Header />
       <Container>
-        <div className="mt-28 md:mt-32">
+        <div className="mt-28 md:mt-36">
           <Subtitle color="secondary">PROJETO QUE EMPREGA VIDROS</Subtitle>
           <p>
             Veja, abaixo, a relação com fotos dos projetos concorrentes e vote

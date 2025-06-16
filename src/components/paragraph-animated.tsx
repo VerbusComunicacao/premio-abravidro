@@ -7,13 +7,13 @@ export default function ParagraphAnimated({
   children: ReactNode
 }) {
   return (
-    <motion.p
+    <motion.div
       initial={{ opacity: 0, translateY: 25 }}
       whileInView={{ opacity: 1, translateY: 0 }}
       transition={{ duration: 1 }}
       viewport={{ once: true }}
     >
       {children}
-    </motion.p>
+    </motion.div>
   )
 }
