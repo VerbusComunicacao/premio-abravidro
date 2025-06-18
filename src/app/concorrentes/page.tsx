@@ -203,7 +203,6 @@ const desenvolvedoresSoftware: Categoria = {
   concorrentes: [
     { nome: 'GlassControl' },
     { nome: 'Meu Vidraceiro' },
-    { nome: 'Portal Sym' },
     { nome: 'Reitech' },
     { nome: 'Softsystem' },
     { nome: 'SYM - Softwares Your Mode' },
@@ -382,7 +381,8 @@ export default function Concorrentes() {
               </ul>
               <Link
                 href="/galeria"
-                className="bg-background p-3 rounded-md text-white text-center"
+                className="bg-background p-3 rounded-md text-white text-center block w-full sm:w-auto"
+                style={{ wordBreak: 'break-word' }}
               >
                 Veja fotos e mais informações sobre os concorrentes
               </Link>
