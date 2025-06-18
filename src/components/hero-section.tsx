@@ -50,7 +50,7 @@ export function HeroSection() {
                 height={100}
               />
             </div>
-            <p className="mt-2 max-w-64">106 concorrentes </p>
+            <p className="mt-2 max-w-64">105 concorrentes </p>
           </div>
         </ParagraphAnimated>
         <ParagraphAnimated>

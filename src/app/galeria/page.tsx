@@ -97,6 +97,7 @@ function Modal({
             className="object-contain max-w-full max-h-full"
             sizes="(max-width: 1200px) 100vw, 1200px"
             priority
+            unoptimized
           />
         </div>
       </div>
