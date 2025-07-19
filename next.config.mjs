@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
+    formats: ['image/webp'],
     remotePatterns: [
       {
         protocol: 'https',
@@ -8,6 +9,7 @@ const nextConfig = {
         pathname: '/wp-content/uploads/**',
       },
     ],
+    minimumCacheTTL: 2678400,
   },
 }
 

@@ -5,7 +5,7 @@ import Logo from './logo'
 import { Subtitle } from './subtitle'
 import ParagraphAnimated from './paragraph-animated'
 import Link from 'next/link'
-import Image from 'next/image'
+// import Image from 'next/image'
 
 export function HeroSection() {
   return (
@@ -21,10 +21,10 @@ export function HeroSection() {
       </Link> */}
       <div className="max-w-md mt-12 [&>p]:pt-5">
         <Subtitle color="secondary">
-          Está aberta a votação popular até 18 de julho. Participe!
+          Votação popular encerrada! Agora é com o júri técnico
           <br className="hidden md:inline" />
         </Subtitle>
-
+        {/*
         <ParagraphAnimated>
           <div className="flex items-center gap-4">
             <div className="bg-white p-2 rounded-lg w-12 flex items-center justify-center">
@@ -68,19 +68,30 @@ export function HeroSection() {
             </p>
           </div>
         </ParagraphAnimated>
+        */}
         <ParagraphAnimated>
           <p className="mt-2">
-            O concorrente mais votado de cada categoria integrará a seleção de
-            finalistas, avaliada pelo júri técnico, e computará um ponto
-            adicional na votação da comissão julgadora.
+            Milhares de votos foram dados nos 105 concorrentes, além de 21
+            projetos. Nos próximos dias, contabilizaremos os votos e o júri
+            técnico fará a análise dos finalistas de cada categoria - o
+            concorrente mais votado de cada categoria, além de estar entre os
+            finalistas, ganha um ponto a mais na avaliação do júri.
+          </p>
+        </ParagraphAnimated>
+        <ParagraphAnimated>
+          <p className="mt-2">
+            A cerimônia de premiação será no dia 3 de setembro, dentro da Glass
+            South America. A feira será realizada no Distrito Anhembi, em São
+            Paulo, e trará muitas novidades em produtos e serviços, além de
+            muito conteúdo. Participe!
           </p>
         </ParagraphAnimated>
         <div className="mt-10">
           <Link
             className="bg-yellow-400 text-primary uppercase p-5 rounded-lg font-bold"
-            href={'https://pt.surveymonkey.com/r/NV7K8J9'}
+            href={'https://www.glassexpo.com.br/credenciamento'}
           >
-            Vote agora nos seus favoritos!{' '}
+            FAÇA SEU CREDENCIAMENTO GRATUITO{' '}
           </Link>
         </div>
       </div>
