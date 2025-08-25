@@ -5,6 +5,7 @@ import Logo from './logo'
 import { Subtitle } from './subtitle'
 import ParagraphAnimated from './paragraph-animated'
 import Link from 'next/link'
+import Image from 'next/image'
 // import Image from 'next/image'
 
 export function HeroSection() {
@@ -21,7 +22,7 @@ export function HeroSection() {
       </Link> */}
       <div className="max-w-md mt-12 [&>p]:pt-5">
         <Subtitle color="secondary">
-          Votação popular encerrada! Agora é com o júri técnico
+          Participe da cerimônia de premiação!
           <br className="hidden md:inline" />
         </Subtitle>
         {/*
@@ -71,19 +72,46 @@ export function HeroSection() {
         */}
         <ParagraphAnimated>
           <p className="mt-2">
-            Milhares de votos foram dados nos 105 concorrentes, além de 21
-            projetos. Nos próximos dias, contabilizaremos os votos e o júri
-            técnico fará a análise dos finalistas de cada categoria - o
-            concorrente mais votado de cada categoria, além de estar entre os
-            finalistas, ganha um ponto a mais na avaliação do júri.
+            Está chegando a hora de conhecer os vencedores da edição 2025 do
+            prêmio que reconhece a excelência das empresas que atuam nos
+            diversos elos da cadeia produtiva vidreira!
           </p>
         </ParagraphAnimated>
         <ParagraphAnimated>
+          <div className="flex items-center gap-4">
+            <div className="bg-white p-2 mt-4 rounded-lg w-12 flex items-center justify-center">
+              <Image
+                src="/icons/calendario.png"
+                alt="Ícone de calendário"
+                width={100}
+                height={100}
+              />
+            </div>
+            <p className="mt-2 max-w-64">3 de setembro | 19 horas</p>
+          </div>
+        </ParagraphAnimated>
+        <ParagraphAnimated>
+          <div className="flex items-center gap-4">
+            <div className="bg-white p-2 rounded-lg w-12 flex items-center justify-center">
+              <Image
+                src="/icons/localizacao.png"
+                alt="Ícone de localização"
+                width={100}
+                height={100}
+              />
+            </div>
+            <p className="mt-2 max-w-64">
+              Arena de Conteúdo da Glass South America
+              <br />
+              Distrito Anhembi, São Paulo
+            </p>
+          </div>
+        </ParagraphAnimated>
+        <ParagraphAnimated>
           <p className="mt-2">
-            A cerimônia de premiação será no dia 3 de setembro, dentro da Glass
-            South America. A feira será realizada no Distrito Anhembi, em São
-            Paulo, e trará muitas novidades em produtos e serviços, além de
-            muito conteúdo. Participe!
+            Venha celebrar conosco! Para isso, basta se credenciar para a Glass
+            South America, feira realizada de 3 a 6 de setembro, no Distrito
+            Anhembi.
           </p>
         </ParagraphAnimated>
         <div className="mt-10 flex justify-start">
