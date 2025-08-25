@@ -1,11 +1,11 @@
-'use client'
+"use client";
 
-import { motion } from 'framer-motion'
-import Logo from './logo'
-import { Subtitle } from './subtitle'
-import ParagraphAnimated from './paragraph-animated'
-import Link from 'next/link'
-import Image from 'next/image'
+import { motion } from "framer-motion";
+import Logo from "./logo";
+import { Subtitle } from "./subtitle";
+import ParagraphAnimated from "./paragraph-animated";
+import Link from "next/link";
+import Image from "next/image";
 // import Image from 'next/image'
 
 export function HeroSection() {
@@ -22,7 +22,7 @@ export function HeroSection() {
       </Link> */}
       <div className="max-w-md mt-12 [&>p]:pt-5">
         <Subtitle color="secondary">
-        Participe da cerimônia de premiação!
+          Participe da cerimônia de premiação!
           <br className="hidden md:inline" />
         </Subtitle>
         {/*
@@ -72,8 +72,9 @@ export function HeroSection() {
         */}
         <ParagraphAnimated>
           <p className="mt-2">
-          Está chegando a hora de conhecer os vencedores da edição 2025 do prêmio que reconhece a excelência das empresas que atuam nos diversos elos da cadeia produtiva vidreira!
-
+            Está chegando a hora de conhecer os vencedores da edição 2025 do
+            prêmio que reconhece a excelência das empresas que atuam nos
+            diversos elos da cadeia produtiva vidreira!
           </p>
         </ParagraphAnimated>
         <ParagraphAnimated>
@@ -86,9 +87,7 @@ export function HeroSection() {
                 height={100}
               />
             </div>
-            <p className="mt-2 max-w-64">
-              3 de setembro | 19 horas
-            </p>
+            <p className="mt-2 max-w-64">3 de setembro | 19 horas</p>
           </div>
         </ParagraphAnimated>
         <ParagraphAnimated>
@@ -102,26 +101,28 @@ export function HeroSection() {
               />
             </div>
             <p className="mt-2 max-w-64">
-              Arena de Conteúdo da Glass South America<br />
+              Arena de Conteúdo da Glass South America
+              <br />
               Distrito Anhembi, São Paulo
             </p>
           </div>
         </ParagraphAnimated>
         <ParagraphAnimated>
           <p className="mt-2">
-          Venha celebrar conosco! Para isso, basta se credenciar para a Glass South America, feira realizada de 3 a 6 de setembro, no Distrito Anhembi.
-
+            Venha celebrar conosco! Para isso, basta se credenciar para a Glass
+            South America, feira realizada de 3 a 6 de setembro, no Distrito
+            Anhembi.
           </p>
         </ParagraphAnimated>
         <div className="mt-10 flex justify-start">
           <Link
             className="bg-yellow-400 text-primary uppercase px-4 py-3 md:px-8 md:py-5 rounded-lg font-bold text-center block w-full max-w-xs md:max-w-none"
-            href={'https://www.glassexpo.com.br/credenciamento'}
+            href={"https://www.glassexpo.com.br/credenciamento"}
           >
             FAÇA SEU CREDENCIAMENTO GRATUITO
           </Link>
         </div>
       </div>
     </>
-  )
+  );
 }
