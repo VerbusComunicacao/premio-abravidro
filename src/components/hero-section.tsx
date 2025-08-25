@@ -1,11 +1,11 @@
-"use client";
+'use client'
 
-import { motion } from "framer-motion";
-import Logo from "./logo";
-import { Subtitle } from "./subtitle";
-import ParagraphAnimated from "./paragraph-animated";
-import Link from "next/link";
-import Image from "next/image";
+import { motion } from 'framer-motion'
+import Logo from './logo'
+import { Subtitle } from './subtitle'
+import ParagraphAnimated from './paragraph-animated'
+import Link from 'next/link'
+import Image from 'next/image'
 // import Image from 'next/image'
 
 export function HeroSection() {
@@ -117,12 +117,12 @@ export function HeroSection() {
         <div className="mt-10 flex justify-start">
           <Link
             className="bg-yellow-400 text-primary uppercase px-4 py-3 md:px-8 md:py-5 rounded-lg font-bold text-center block w-full max-w-xs md:max-w-none"
-            href={"https://www.glassexpo.com.br/credenciamento"}
+            href={'https://www.glassexpo.com.br/credenciamento'}
           >
             FAÇA SEU CREDENCIAMENTO GRATUITO
           </Link>
         </div>
       </div>
     </>
-  );
+  )
 }

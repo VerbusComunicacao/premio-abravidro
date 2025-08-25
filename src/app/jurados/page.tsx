@@ -15,7 +15,10 @@ export default function Judges() {
           <div className="text-white">
             <strong>JURADOS | EDIÇÃO 2025</strong>
             <p className="mt-4">
-              O júri técnico da edição 2025 é formado por membros do mercado que atuam em diferentes elos e funções da cadeia, reconhecidos pelo nível de conhecimento técnico e experiência no mercado. Confira a relação a seguir:
+              O júri técnico da edição 2025 é formado por membros do mercado que
+              atuam em diferentes elos e funções da cadeia, reconhecidos pelo
+              nível de conhecimento técnico e experiência no mercado. Confira a
+              relação a seguir:
             </p>
             <ul className="list-disc pl-6 mt-4 space-y-1">
               <li>Albert Pestana</li>
@@ -50,10 +53,12 @@ export default function Judges() {
             <p className="mt-6 font-bold">IMPORTANTE:</p>
             <ul className="list-disc pl-6 mt-2 space-y-1">
               <li>
-                Foram formados grupos de cinco jurados para avaliar cada categoria (diversos jurados avaliaram mais de uma categoria).
+                Foram formados grupos de cinco jurados para avaliar cada
+                categoria (diversos jurados avaliaram mais de uma categoria).
               </li>
               <li>
-                Nenhum jurado poderia atuar na categoria avaliada (exemplo: processadores não avaliaram processadoras).
+                Nenhum jurado poderia atuar na categoria avaliada (exemplo:
+                processadores não avaliaram processadoras).
               </li>
             </ul>
           </div>
