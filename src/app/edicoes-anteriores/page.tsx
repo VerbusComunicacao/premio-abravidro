@@ -4,6 +4,76 @@ import Footer from '@/components/footer'
 import Background from '@/components/background'
 import { Header } from '@/components/header'
 
+const premio2025 = [
+  {
+    category: 'Fabricante de Vidros Planos',
+    names: ['Cebrace'],
+  },
+  {
+    category: 'Processadores de Vidro',
+    names: [
+      'Região Sul: Modelo Vidros',
+      'Região Sudeste: Divinal Vidros',
+      'Região Centro-Oeste: LM Vidros',
+      'Região Nordeste: Amazon Temper',
+      'Região Norte: Guaporé Vidros',
+    ],
+  },
+  {
+    category: 'Fabricante de Máquinas e Equipamentos para Processamento de Vidro',
+    names: ['Sglass'],
+  },
+  {
+    category: 'Fabricante de Fornos de Têmpera',
+    names: ['Sglass'],
+  },
+  {
+    category: 'Fabricante de Rebolos e Brocas',
+    names: ['Diamanfer'],
+  },
+  {
+    category: 'Fabricante de Insumos para o Processamento de Vidro',
+    names: ['Eastman'],
+  },
+  {
+    category: 'Fabricante de Ferragens e Acessórios para Vidro',
+    names: ['AL Indústria'],
+  },
+  {
+    category: 'Fabricante de Sistemas de Guarda-corpos de Vidro',
+    names: ['Ideia Glass'],
+  },
+  {
+    category: 'Fabricante de Sistemas de Envidraçamento de Sacadas',
+    names: ['AL Indústria'],
+  },
+  {
+    category: 'Fabricante de Kits de Boxes de Vidro para Banheiro',
+    names: ['Ideia Glass'],
+  },
+  {
+    category: 'Fabricante de Sistemas de Portas de Vidro',
+    names: ['AL Indústria'],
+  },
+  {
+    category: 'Desenvolvedor de Softwares para o Mercado Vidreiro',
+    names: ['Softsystem'],
+  },
+  {
+    category: 'Vidraçarias',
+    names: [
+      'Região Sul: Lajeadense Vidros',
+      'Região Sudeste: BN Vidros',
+      'Região Nordeste: Sujvidros',
+      'Região Norte: Vidrex',
+    ],
+  },
+  {
+    category: 'Projeto que Emprega Vidros',
+    names: ['Yachthouse | Balneário Camboriú (SC)'],
+  },
+]
+
 const judges = [
   {
     category: 'Fabricantes de Vidros Planos',
@@ -67,8 +137,25 @@ export default function Judges() {
       <Header />
       <Container>
         <div className="mt-40 max-w-96 mb-10">
-          <Subtitle color="secondary">Edições anteriores</Subtitle>
+          <Subtitle color="secondary">Vencedores</Subtitle>
           <div className="bg-yellow-500 w-min py-1 px-5 rounded-sm mb-5 mt-5">
+            <h3 className="font-bold text-primary text-lg">2025</h3>
+          </div>
+          <div>
+            {premio2025.map((group, index) => (
+            <div key={index} className="mt-10">
+              <h2 className="text-xl font-bold">{group.category}</h2>
+              <ul className="list-disc list-inside mt-3">
+                {group.names.map((name, idx) => (
+                  <li key={idx} className="text-lg">
+                    {name}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+          </div>
+          <div className="bg-yellow-500 w-min py-1 px-5 rounded-sm mb-5 mt-10">
             <h3 className="font-bold text-primary text-lg">2024</h3>
           </div>
           <p>
