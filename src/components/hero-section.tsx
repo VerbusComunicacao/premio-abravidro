@@ -70,9 +70,9 @@ export function HeroSection() {
         */}
         <ParagraphAnimated>
           <p className="mt-2">
-            No dia 3 de setembro, na Arena de Conteúdo da Glass South America
-            2025, foi realizada a cerimônia de premiação do Prêmio Abravidro
-            Glass South America. No total, tivemos 105 concorrentes validados em
+            No dia 3 de setembro, na Arena de Conteúdo da Glass South America,
+            foi realizada a cerimônia de premiação do Prêmio Abravidro South
+            America 2025. No total, tivemos 105 concorrentes validados em
             catorze categorias, além de 21 projetos comerciais e residenciais
             com uso do vidro.
           </p>
