@@ -2,10 +2,8 @@
 
 import { motion } from 'framer-motion'
 import Logo from './logo'
-import { Subtitle } from './subtitle'
 import ParagraphAnimated from './paragraph-animated'
 import Link from 'next/link'
-import Image from 'next/image'
 // import Image from 'next/image'
 
 export function HeroSection() {
@@ -72,13 +70,21 @@ export function HeroSection() {
         */}
         <ParagraphAnimated>
           <p className="mt-2">
-           No dia 3 de setembro, na Arena de Conteúdo da Glass South America 2025, foi realizada a cerimônia de premiação do Prêmio Abravidro Glass South America 2025. No total, tivemos 105 concorrentes validados em catorze categorias, além de 21 projetos comerciais e residenciais com uso do vidro.
+            No dia 3 de setembro, na Arena de Conteúdo da Glass South America
+            2025, foi realizada a cerimônia de premiação do Prêmio Abravidro
+            Glass South America 2025. No total, tivemos 105 concorrentes
+            validados em catorze categorias, além de 21 projetos comerciais e
+            residenciais com uso do vidro.
           </p>
         </ParagraphAnimated>
         <ParagraphAnimated>
-          <p className="mt-2">Em sua 2ª edição, o prêmio ganhou novas categorias em relação ao ano passado. Assim, foram contemplados ainda mais elos da cadeia vidreira, tornando o prêmio mais representativo da excelência de nosso setor.</p>
+          <p className="mt-2">
+            Em sua 2ª edição, o prêmio ganhou novas categorias em relação ao ano
+            passado. Assim, foram contemplados ainda mais elos da cadeia
+            vidreira, tornando o prêmio mais representativo da excelência de
+            nosso setor.
+          </p>
         </ParagraphAnimated>
-        
         <div className="mt-10 flex justify-start">
           <Link
             className="bg-yellow-400 text-primary uppercase px-4 py-3 md:px-8 md:py-5 rounded-lg font-bold text-left block w-full max-w-xs md:max-w-none"

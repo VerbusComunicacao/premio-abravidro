@@ -20,7 +20,8 @@ const premio2025 = [
     ],
   },
   {
-    category: 'Fabricante de Máquinas e Equipamentos para Processamento de Vidro',
+    category:
+      'Fabricante de Máquinas e Equipamentos para Processamento de Vidro',
     names: ['Sglass'],
   },
   {
@@ -143,17 +144,17 @@ export default function Judges() {
           </div>
           <div>
             {premio2025.map((group, index) => (
-            <div key={index} className="mt-10">
-              <h2 className="text-xl font-bold">{group.category}</h2>
-              <ul className="list-disc list-inside mt-3">
-                {group.names.map((name, idx) => (
-                  <li key={idx} className="text-lg">
-                    {name}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
+              <div key={index} className="mt-10">
+                <h2 className="text-xl font-bold">{group.category}</h2>
+                <ul className="list-disc list-inside mt-3">
+                  {group.names.map((name, idx) => (
+                    <li key={idx} className="text-lg">
+                      {name}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
           </div>
           <div className="bg-yellow-500 w-min py-1 px-5 rounded-sm mb-5 mt-10">
             <h3 className="font-bold text-primary text-lg">2024</h3>
