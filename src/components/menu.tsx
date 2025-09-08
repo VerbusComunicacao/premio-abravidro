@@ -35,7 +35,7 @@ export default function Menu() {
       href: 'regulamento',
     },
     {
-      title: 'Edições Anteriores',
+      title: 'Vencedores',
       href: 'edicoes-anteriores',
     },
     {
