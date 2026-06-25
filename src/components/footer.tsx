@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import logoEsquadria from '../../public/logo-Esquadria.png'
-import logoGlass from '../../public/logo-glass.png'
-import AbravidroImg from '../../public/logo-35-anos.png'
+import logoGlass from '../../public/logo-glass-branco.svg'
+import AbravidroImg from '../../public/Abravidro-branco.svg'
 import NMBImg from '../../public/NMB.png'
 import Image from 'next/image'
 
