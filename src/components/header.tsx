@@ -1,5 +1,5 @@
-import logoGlass from '../../public/logo-glass.png'
-import logoAbravidro from '../../public/abravidro-35-anos.png'
+import logoGlass from '../../public/logo-glass-branco.svg'
+import logoAbravidro from '../../public/Abravidro-branco.svg'
 import Image from 'next/image'
 import Menu from './menu'
 import Link from 'next/link'
